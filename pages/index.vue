@@ -11,9 +11,11 @@
         </nuxt-link>
       </div>
 
-      <div class="flex justify-center" data-aos="zoom-out-up">
-        <img class="h-auto max-w-md w-full" src="/img/swach.png" />
-      </div>
+      <img
+        class="block h-auto max-h-full max-w-md m-auto w-auto"
+        src="/img/swach.png"
+        data-aos="zoom-out-up"
+      />
     </div>
   </div>
 </template>
