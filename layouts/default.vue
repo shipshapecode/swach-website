@@ -1,10 +1,6 @@
 <template>
   <div>
-    <div class="flex h-20 items-center justify-center p-6 shadow w-full">
-      <div class="flex font-medium items-center max-w-6xl text-2xl w-full">
-        <SwachLogo class="inline h-10 mr-4 w-10" /> Swach
-      </div>
-    </div>
+    <NavMenu />
 
     <main>
       <nuxt />
@@ -13,11 +9,11 @@
 </template>
 
 <script>
-import SwachLogo from '~/assets/svgs/swach-dock-icon.svg?inline';
+import NavMenu from '~/components/NavMenu.vue';
 
 export default {
   components: {
-    SwachLogo
+    NavMenu
   }
 };
 </script>
@@ -46,5 +42,12 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+a,
+button {
+  text-decoration: none;
+  transition-duration: 0.25s;
+  transition-property: all;
 }
 </style>

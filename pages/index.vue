@@ -5,8 +5,15 @@
         A robust color management tool for the modern age.
       </h1>
 
-      <div class="flex justify-center" data-aos="zoom-in-up">
-        <nuxt-link class="bg-gray-600 btn block" to="/downloading/">
+      <div
+        class="flex justify-center m-4"
+        data-aos="zoom-in-up"
+        data-aos-delay="500"
+      >
+        <nuxt-link
+          class="bg-gray-600 btn block hover:bg-black"
+          to="/downloading/"
+        >
           Try Swach for free
         </nuxt-link>
       </div>
@@ -15,6 +22,7 @@
         class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
         src="/img/swach.png"
         data-aos="zoom-out-up"
+        data-aos-delay="500"
       />
     </div>
   </div>
