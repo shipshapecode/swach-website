@@ -12,7 +12,7 @@
       </div>
 
       <img
-        class="block h-auto max-h-full max-w-md m-auto w-auto"
+        class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
         src="/img/swach.png"
         data-aos="zoom-out-up"
       />
