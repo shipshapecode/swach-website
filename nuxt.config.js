@@ -1,3 +1,7 @@
+import { resolve } from 'path';
+import glob from 'glob';
+
+const markdownPaths = ['content'];
 const description = 'A robust color management tool for the modern age.';
 const title = 'Swach';
 
@@ -67,6 +71,9 @@ export default {
    ** Nuxt.js modules
    */
   modules: ['@nuxtjs/pwa'],
+  generate: {
+    routes: dynamicMarkdownRoutes()
+  },
   /*
    ** Build configuration
    */
@@ -74,6 +81,22 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        include: resolve(__dirname, 'content')
+      });
+    }
   }
 };
+
+function dynamicMarkdownRoutes() {
+  return [].concat(
+    ...markdownPaths.map((mdPath) => {
+      return glob
+        .sync(`${mdPath}/*.md`, { cwd: 'content' })
+        .map((filepath) => `${mdPath}/${path.basename(filepath, '.md')}`);
+    })
+  );
+}

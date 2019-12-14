@@ -1,5 +1,8 @@
 <template>
-  <h1>
-    Docs
-  </h1>
+  <div>
+    <h1>
+      Docs
+    </h1>
+    <nuxt-child />
+  </div>
 </template>
