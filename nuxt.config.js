@@ -1,17 +1,40 @@
+const description = 'A robust color management tool for the modern age.';
+const title = 'Swach';
+
 export default {
   mode: 'universal',
   /*
    ** Headers of the page
    */
   head: {
-    title: 'Swach',
+    title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
+        hid: 'og:title',
+        property: 'og:title',
+        content: title
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: title
+      },
+      {
         hid: 'description',
         name: 'description',
-        content: 'A robust color management tool for the modern age.'
+        content: description
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: description
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
