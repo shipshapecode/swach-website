@@ -13,13 +13,13 @@
 </template>
 
 <script>
-import SwachLogo from '~/assets/svgs/swach-dock-icon.svg?inline'
+import SwachLogo from '~/assets/svgs/swach-dock-icon.svg?inline';
 
 export default {
   components: {
     SwachLogo
   }
-}
+};
 </script>
 
 <style>
