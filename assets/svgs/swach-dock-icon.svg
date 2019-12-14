@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1023px" height="1022px" viewBox="0 0 1023 1022" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-1.2%" y="-1.2%" width="102.4%" height="102.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" filter="url(#filter-1)" transform="translate(-5.000000, 2.000000)">
+            <g id="Fourth" transform="translate(9.504701, 0.000000)">
+                <path d="M-375.566461,383.566461 L621.943891,383.566461 C626.362169,383.566461 629.943891,387.148183 629.943891,391.566461 L629.943891,621.943891 C629.943891,626.362169 626.362169,629.943891 621.943891,629.943891 L-375.566461,629.943891 C-379.984739,629.943891 -383.566461,626.362169 -383.566461,621.943891 L-383.566461,391.566461 C-383.566461,387.148183 -379.984739,383.566461 -375.566461,383.566461 Z" id="Rectangle" fill="#FFFFFF" transform="translate(123.188715, 506.755176) rotate(-90.000000) translate(-123.188715, -506.755176) "></path>
+                <polygon id="Rectangle" fill="#BF2424" transform="translate(123.188715, 115.829754) rotate(-90.000000) translate(-123.188715, -115.829754) " points="58.0344779 28.8730146 188.342952 28.8730146 188.342952 202.786494 58.0344779 202.786494"></polygon>
+                <polygon id="Rectangle" fill="#F45432" transform="translate(123.188715, 282.335027) rotate(-90.000000) translate(-123.188715, -282.335027) " points="58.0344779 195.378287 188.342952 195.378287 188.342952 369.291766 58.0344779 369.291766"></polygon>
+                <polygon id="Rectangle" fill="#F2C55E" transform="translate(123.188715, 448.840299) rotate(-90.000000) translate(-123.188715, -448.840299) " points="58.0344779 361.883559 188.342952 361.883559 188.342952 535.797038 58.0344779 535.797038"></polygon>
+                <polygon id="Rectangle" fill="#28D1D4" transform="translate(123.188715, 615.345571) rotate(-90.000000) translate(-123.188715, -615.345571) " points="58.0344779 528.388831 188.342952 528.388831 188.342952 702.302311 58.0344779 702.302311"></polygon>
+                <polygon id="Rectangle" fill="#102B47" transform="translate(123.188715, 781.850843) rotate(-90.000000) translate(-123.188715, -781.850843) " points="58.0344779 694.894103 188.342952 694.894103 188.342952 868.807583 58.0344779 868.807583"></polygon>
+            </g>
+            <g id="Third" transform="translate(5.088929, 9.799395)">
+                <path d="M-136.610334,382.207684 L861.146256,382.627448 C865.561903,382.636038 869.14103,386.215166 869.149619,390.630812 L869.246468,620.948443 C869.255053,625.366718 865.674837,628.949946 861.25656,628.951804 C861.254317,628.951805 861.252073,628.951805 861.249833,628.945077 L-136.506757,628.525314 C-140.922404,628.516723 -144.501531,624.937596 -144.51012,620.521949 L-144.606969,390.204318 C-144.615554,385.786043 -141.035338,382.202815 -136.617061,382.200957 C-136.614818,382.200957 -136.612574,382.200957 -136.610334,382.207684 Z" id="Rectangle" fill="#FFFFFF" transform="translate(362.319749, 505.576381) rotate(-60.000000) translate(-362.319749, -505.576381) "></path>
+                <polygon id="Rectangle" fill="#FADBBF" transform="translate(557.972414, 166.505272) rotate(-60.000000) translate(-557.972414, -166.505272) " points="492.765791 79.5422207 623.105924 79.5970557 623.179037 253.468323 492.838904 253.413488"></polygon>
+                <polygon id="Rectangle" fill="#8CBF3F" transform="translate(474.638872, 310.703068) rotate(-60.000000) translate(-474.638872, -310.703068) " points="409.432249 223.740016 539.772382 223.794851 539.845495 397.666119 409.505362 397.611284"></polygon>
+                <polygon id="Rectangle" fill="#203A40" transform="translate(391.305329, 454.900863) rotate(-60.000000) translate(-391.305329, -454.900863) " points="326.098706 367.937812 456.438839 367.992647 456.511953 541.863914 326.17182 541.809079"></polygon>
+                <polygon id="Rectangle" fill="#0F8AA6" transform="translate(307.971787, 599.098658) rotate(-60.000000) translate(-307.971787, -599.098658) " points="242.765164 512.135607 373.105297 512.190442 373.17841 686.06171 242.838277 686.006875"></polygon>
+                <polygon id="Rectangle" fill="#F21D2F" transform="translate(224.638245, 743.296454) rotate(-60.000000) translate(-224.638245, -743.296454) " points="159.431622 656.333403 289.771754 656.388238 289.844868 830.259505 159.504735 830.20467"></polygon>
+            </g>
+            <g id="Second" transform="translate(0.000000, 292.656082)">
+                <path d="M8.07132903,240.839888 L1006.32039,241.259655 C1010.73604,241.268244 1014.31517,244.847371 1014.32376,249.263018 L1014.4206,479.461048 C1014.42919,483.879323 1010.84897,487.462551 1006.4307,487.46441 C1006.42845,487.464411 1006.42621,487.464411 1006.42397,487.457683 L8.17490627,487.037917 C3.75925937,487.029328 0.180131529,483.4502 0.171541325,479.034554 L0.0746953977,248.836523 C0.0661097491,244.418249 3.64632458,240.83502 8.06460219,240.833161 C8.06684541,240.83316 8.06908864,240.83316 8.07132903,240.839888 Z" id="Rectangle" fill="#FFFFFF" transform="translate(507.247649, 364.148786) rotate(-30.000000) translate(-507.247649, -364.148786) "></path>
+                <polygon id="Rectangle" fill="#8085BA" transform="translate(846.648273, 168.686075) rotate(-30.000000) translate(-846.648273, -168.686075) " points="781.409991 81.7652357 911.813442 81.8200707 911.886555 255.606914 781.483104 255.552079"></polygon>
+                <polygon id="Rectangle" fill="#95519A" transform="translate(702.310344, 251.938711) rotate(-30.000000) translate(-702.310344, -251.938711) " points="637.072062 165.017872 767.475512 165.072707 767.548626 338.85955 637.145175 338.804715"></polygon>
+                <polygon id="Rectangle" fill="#A1D8DA" transform="translate(557.972414, 335.191347) rotate(-30.000000) translate(-557.972414, -335.191347) " points="492.734132 248.270508 623.137583 248.325343 623.210696 422.112187 492.807245 422.057352"></polygon>
+                <polygon id="Rectangle" fill="#F19E7D" transform="translate(413.634485, 418.443983) rotate(-30.000000) translate(-413.634485, -418.443983) " points="348.396203 331.523144 478.799654 331.577979 478.872767 505.364823 348.469316 505.309988"></polygon>
+                <polygon id="Rectangle" fill="#F8B63C" transform="translate(269.296555, 501.696619) rotate(-30.000000) translate(-269.296555, -501.696619) " points="204.058273 414.77578 334.461724 414.830615 334.534838 588.617459 204.131387 588.562624"></polygon>
+            </g>
+            <g id="First" transform="translate(9.504701, 767.372123)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1014.4953" height="246.138228" rx="8"></rect>
+                <rect id="Rectangle" fill="#FEBE7E" x="833.335424" y="36.1967983" width="130.43511" height="173.744632"></rect>
+                <rect id="Rectangle" fill="#EC7263" x="666.668339" y="36.1967983" width="130.43511" height="173.744632"></rect>
+                <rect id="Rectangle" fill="#A75265" x="500.001254" y="36.1967983" width="130.43511" height="173.744632"></rect>
+                <rect id="Rectangle" fill="#57385C" x="333.33417" y="36.1967983" width="130.43511" height="173.744632"></rect>
+                <rect id="Rectangle" fill="#204E7A" x="166.667085" y="36.1967983" width="130.43511" height="173.744632"></rect>
+            </g>
+            <ellipse id="Oval" fill="#D8D8D8" cx="107.331034" cy="894.060917" rx="25.3623825" ry="25.3377588"></ellipse>
+        </g>
+    </g>
+</svg>

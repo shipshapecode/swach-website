@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="flex h-12 items-center justify-center p-6 shadow w-full">
-      <div class="font-bold max-w-6xl text-lg w-full">
-        Swach
+    <div class="flex h-20 items-center justify-center p-6 shadow w-full">
+      <div class="flex font-medium items-center max-w-6xl text-2xl w-full">
+        <SwachLogo class="inline h-10 mr-4 w-10" /> Swach
       </div>
     </div>
 
@@ -11,6 +11,16 @@
     </main>
   </div>
 </template>
+
+<script>
+import SwachLogo from '~/assets/svgs/swach-dock-icon.svg?inline'
+
+export default {
+  components: {
+    SwachLogo
+  }
+}
+</script>
 
 <style>
 @font-face {
