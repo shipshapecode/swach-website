@@ -1,5 +1,5 @@
 .btn {
-  @apply font-bold inline-block pb-4 pl-12 pr-12 pt-4 rounded text-base text-white whitespace-no-wrap;
+  @apply font-bold inline-block no-underline pb-4 pl-12 pr-12 pt-4 rounded text-base text-white whitespace-no-wrap;
 }
 
 .btn:active {
