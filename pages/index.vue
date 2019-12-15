@@ -45,11 +45,27 @@
           easily pasted wherever they are needed.
         </p>
       </div>
-      <div class="w-full lg:w-1/2"></div>
+      <div class="w-full lg:w-1/2">
+        <img
+          class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
+          src="/img/color-picker.png"
+          data-aos="fade-up"
+        />
+      </div>
     </div>
 
     <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
-      <div class="w-full lg:w-1/2"></div>
+      <div class="flex justify-center w-full lg:justify-start lg:w-1/2">
+        <video
+          muted
+          loop
+          autoplay
+          class="h-auto max-h-full max-w-sm p-4 w-full"
+          data-aos="fade-up"
+        >
+          <source src="/video/palettes.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div class="w-full lg:w-1/2">
         <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
           Palettes
