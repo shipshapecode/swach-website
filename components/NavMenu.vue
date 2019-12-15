@@ -1,9 +1,10 @@
 <template>
   <nav class="flex h-20 items-center justify-center p-6 shadow w-full">
-    <div
-      class="flex font-medium items-center justify-between max-w-6xl text-2xl w-full"
-    >
-      <nuxt-link to="/" class="inline-flex items-center" itemprop="url">
+    <div class="flex font-medium items-center justify-between max-w-6xl w-full">
+      <nuxt-link
+        to="/"
+        class="font-bold inline-flex items-center text-gray-800 text-2xl"
+      >
         <SwachLogo class="inline h-10 mr-4 w-10" /> Swach
       </nuxt-link>
 
@@ -11,7 +12,7 @@
         <button
           @click="toggleNavMenu(true)"
           aria-label="Open navigation menu"
-          class="flex items-center px-3 py-2 text-gray-600 hover:text-black text-xl"
+          class="flex items-center px-3 py-2 text-gray-600 hover:text-gray-800 text-xl"
         >
           <Menu class="hamburger-menu" />
         </button>
@@ -46,7 +47,7 @@
           </nuxt-link>
 
           <nuxt-link
-            class="border-gray-600 btn nav-link lg:border lg:hover:border-black"
+            class="border-gray-600 btn nav-link lg:border lg:hover:border-gray-800"
             to="/downloading/"
             @click.native="toggleNavMenu(false)"
           >

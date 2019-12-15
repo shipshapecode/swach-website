@@ -24,5 +24,5 @@
 }
 
 .nav-link:hover {
-  @apply text-black;
+  @apply text-gray-800;
 }
