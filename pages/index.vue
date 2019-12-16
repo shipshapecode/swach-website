@@ -10,12 +10,12 @@
           class="flex justify-center m-4 lg:justify-start"
           data-aos="fade-up"
         >
-          <nuxt-link
+          <a
             class="bg-gray-600 btn block hover:bg-gray-800"
-            to="/downloading/"
+            href="https://hazel-kohl-kappa.now.sh/download"
           >
             Try Swach for free
-          </nuxt-link>
+          </a>
         </div>
       </div>
 

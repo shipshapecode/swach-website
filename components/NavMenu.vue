@@ -46,13 +46,13 @@
             Pricing
           </nuxt-link>
 
-          <nuxt-link
+          <a
             class="border-gray-600 btn nav-link lg:border lg:hover:border-gray-800"
-            to="/downloading/"
+            href="https://hazel-kohl-kappa.now.sh/download"
             @click.native="toggleNavMenu(false)"
           >
             Try for free
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
