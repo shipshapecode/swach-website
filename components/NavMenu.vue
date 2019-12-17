@@ -47,8 +47,7 @@
           </nuxt-link>
 
           <a
-            @click.native="toggleNavMenu(false)"
-            class="border-gray-600 btn nav-link lg:border lg:hover:border-gray-800"
+            class="border-gray-600 btn hidden nav-link lg:block lg:border lg:hover:border-gray-800"
             href="https://hazel-kohl-kappa.now.sh/download"
           >
             Try for free
