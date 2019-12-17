@@ -107,8 +107,6 @@
   </div>
 </template>
 
-<script></script>
-
 <style>
 /* Sample `apply` at-rules with Tailwind CSS
 .container {

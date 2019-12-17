@@ -22,34 +22,33 @@
         <div class="lg:flex lg:flex-grow lg:justify-end">
           <div class="flex lg:hidden justify-end m-4">
             <button
+              @click="toggleNavMenu(false)"
               aria-label="Close navigation menu"
               class="cursor-pointer"
-              @click="toggleNavMenu(false)"
             >
               <Close class="h-10 m-2 p-2 w-10" />
             </button>
           </div>
 
           <nuxt-link
+            @click.native="toggleNavMenu(false)"
             class="nav-link"
             to="/docs/"
-            @click.native="toggleNavMenu(false)"
           >
             Docs
           </nuxt-link>
 
           <nuxt-link
+            @click.native="toggleNavMenu(false)"
             class="nav-link"
             to="/pricing/"
-            @click.native="toggleNavMenu(false)"
           >
             Pricing
           </nuxt-link>
 
           <a
-            class="border-gray-600 btn nav-link lg:border lg:hover:border-gray-800"
+            class="border-gray-600 btn hidden nav-link lg:block lg:border lg:hover:border-gray-800"
             href="https://hazel-kohl-kappa.now.sh/download"
-            @click.native="toggleNavMenu(false)"
           >
             Try for free
           </a>
