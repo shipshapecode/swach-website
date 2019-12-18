@@ -47,7 +47,7 @@
           </nuxt-link>
 
           <a
-            class="border-gray-600 btn hidden nav-link lg:block lg:border lg:hover:border-gray-800"
+            class="border-color1 btn hidden nav-link pl-4 pr-4 text-color1 hover:text-white lg:block lg:border lg:hover:bg-color1"
             href="https://hazel-kohl-kappa.now.sh/download"
           >
             Try for free

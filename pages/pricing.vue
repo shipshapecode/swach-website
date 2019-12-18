@@ -6,8 +6,11 @@
       </h1>
     </div>
     <div class="flex flex-wrap items-center max-w-6xl w-full lg:flex-no-wrap">
-      <div class="m-4 p-8 rounded shadow w-full lg:w-1/3" data-aos="fade-up">
-        <h2 class="font-bold text-lg">
+      <div
+        class="bg-white m-4 p-8 rounded shadow w-full lg:w-1/3"
+        data-aos="fade-up"
+      >
+        <h2 class="font-bold text-center text-2xl w-full">
           Free Trial
         </h2>
 
@@ -22,21 +25,25 @@
         </ul>
 
         <a
-          class="border border-gray-600 btn bg-transparent mt-4 text-center text-gray-600 w-full hover:bg-gray-600 hover:text-white"
+          class="border border-color1 btn bg-transparent mt-4 text-center text-color1 w-full hover:bg-color1 hover:text-white"
           href="https://hazel-kohl-kappa.now.sh/download"
         >
           Try Swach for free
         </a>
       </div>
-      <div class="m-4 p-8 rounded shadow w-full lg:w-1/3" data-aos="fade-up">
-        <h2 class="font-bold text-lg">
+      <div
+        class="bg-white m-4 p-8 rounded shadow w-full lg:w-1/3"
+        data-aos="fade-up"
+      >
+        <h2 class="font-bold text-center text-2xl w-full">
           License
         </h2>
 
-        <h3 class="text-lg">
-          <span class="font-bold text-5xl">$2</span>
-          <span class="font-hairline text-lg">/device</span>
+        <h3 class="text-center w-full">
+          <span class="font-bold text-color1 text-5xl">$2</span>
         </h3>
+
+        <p class="font-hairline text-center text-lg w-full">per month</p>
 
         <ul class="p-4">
           <li class="list-disc mb-2">
@@ -48,12 +55,15 @@
           </li>
         </ul>
 
-        <button @click="openCheckout()" class="btn bg-gray-600 mt-4 w-full">
+        <button @click="openCheckout()" class="btn bg-color2 mt-4 w-full">
           Buy Swach now
         </button>
       </div>
-      <div class="m-4 p-8 rounded shadow w-full lg:w-1/3" data-aos="fade-up">
-        <h2 class="font-bold text-lg">
+      <div
+        class="bg-white m-4 p-8 rounded shadow w-full lg:w-1/3"
+        data-aos="fade-up"
+      >
+        <h2 class="font-bold text-center text-2xl w-full">
           Discounts
         </h2>
 
@@ -68,7 +78,7 @@
         </ul>
 
         <a
-          class="border border-gray-600 btn bg-transparent mt-4 text-center text-gray-600 w-full hover:bg-gray-600 hover:text-white"
+          class="border border-color1 btn bg-transparent mt-4 text-center text-color1 w-full hover:bg-color1 hover:text-white"
           href="mailto:ahoy@shipshape.io?subject=Swach%20Discount"
         >
           Contact Us

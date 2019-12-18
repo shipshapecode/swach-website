@@ -2,17 +2,21 @@
   <div>
     <NavMenu />
 
-    <main>
+    <main class="min-h-screen">
       <nuxt />
     </main>
+
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from '~/components/Footer.vue';
 import NavMenu from '~/components/NavMenu.vue';
 
 export default {
   components: {
+    Footer,
     NavMenu
   }
 };
@@ -26,6 +30,7 @@ export default {
 }
 
 html {
+  background-color: #fefefe;
   font-family: Muli, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
