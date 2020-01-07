@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap justify-center p-8 w-full">
     <div class="flex max-w-6xl w-full">
-      <aside class="mr-10 w-64">
+      <aside class="hidden mr-10 w-64 lg:block">
         <ul>
           <li class="mb-2">
             <nuxt-link to="/docs/">
