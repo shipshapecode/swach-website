@@ -103,7 +103,17 @@
             complementary, monochromatic, triad, and more!
           </p>
         </div>
-        <div class="w-full lg:w-1/2"></div>
+        <div class="flex justify-center w-full lg:justify-start lg:w-1/2">
+          <video
+            muted
+            loop
+            autoplay
+            class="h-auto max-h-full max-w-sm p-4 w-full"
+            data-aos="fade-up"
+          >
+            <source src="/video/color-harmonies.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </div>
   </div>
