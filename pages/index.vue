@@ -1,108 +1,110 @@
 <template>
   <div class="flex flex-wrap justify-center p-8 w-full">
-    <div class="flex flex-wrap items-center max-w-6xl w-full">
-      <div class="w-full lg:w-1/2">
-        <h1 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
-          A robust color management tool for the modern age.
-        </h1>
+    <div class="max-w-6xl w-full">
+      <div class="flex flex-wrap items-center w-full">
+        <div class="w-full lg:w-1/2">
+          <h1 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+            A robust color management tool for the modern age.
+          </h1>
 
-        <div
-          class="flex justify-center m-4 lg:justify-start"
-          data-aos="fade-up"
-        >
-          <a
-            class="bg-color1 btn block hover:bg-gray-800"
-            href="https://hazel-kohl-kappa.now.sh/download"
+          <div
+            class="flex justify-center m-4 lg:justify-start"
+            data-aos="fade-up"
           >
-            Try Swach for free
-          </a>
+            <a
+              class="bg-color1 btn block hover:bg-gray-800"
+              href="https://hazel-kohl-kappa.now.sh/download"
+            >
+              Try Swach for free
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2">
+          <img
+            class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
+            src="/img/swach.png"
+            data-aos="fade-up"
+          />
         </div>
       </div>
 
-      <div class="w-full lg:w-1/2">
-        <img
-          class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
-          src="/img/swach.png"
-          data-aos="fade-up"
-        />
+      <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
+        <div class="w-full lg:w-1/2">
+          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+            Color Picker
+          </h2>
+
+          <p class="m-4 text-lg" data-aos="fade-up">
+            Our color picker runs natively across MacOS, Windows, and Linux,
+            allowing you to have the same seamless workflow, regardless of what
+            machine you might be on.
+          </p>
+
+          <p class="m-4 text-lg" data-aos="fade-up">
+            Colors are automatically copied to the clipboard, so they can be
+            easily pasted wherever they are needed.
+          </p>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <img
+            class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
+            src="/img/color-picker.png"
+            data-aos="fade-up"
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
-      <div class="w-full lg:w-1/2">
-        <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
-          Color Picker
-        </h2>
+      <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
+        <div class="flex justify-center w-full lg:justify-start lg:w-1/2">
+          <video
+            muted
+            loop
+            autoplay
+            class="h-auto max-h-full max-w-sm p-4 w-full"
+            data-aos="fade-up"
+          >
+            <source src="/video/palettes.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+            Palettes
+          </h2>
 
-        <p class="m-4 text-lg" data-aos="fade-up">
-          Our color picker runs natively across MacOS, Windows, and Linux,
-          allowing you to have the same seamless workflow, regardless of what
-          machine you might be on.
-        </p>
+          <p class="m-4 text-lg" data-aos="fade-up">
+            Palettes are the main color organization method in Swach. You might
+            use them for separate projects, brands, inspiration, etc.
+          </p>
 
-        <p class="m-4 text-lg" data-aos="fade-up">
-          Colors are automatically copied to the clipboard, so they can be
-          easily pasted wherever they are needed.
-        </p>
+          <p class="m-4 text-lg" data-aos="fade-up">
+            They can store as few or as many colors as you would like. Colors
+            can be moved from your color history into any palette, and between
+            any unlocked palettes as well.
+          </p>
+        </div>
       </div>
-      <div class="w-full lg:w-1/2">
-        <img
-          class="block h-auto max-h-full max-w-md m-auto p-4 w-full"
-          src="/img/color-picker.png"
-          data-aos="fade-up"
-        />
+
+      <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
+        <div class="w-full lg:w-1/2">
+          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+            Color Harmonies
+          </h2>
+
+          <p class="m-4 text-lg" data-aos="fade-up">
+            Sometimes you may have one base color you particularly love, but you
+            are not sure what other colors might go with it. To remedy this
+            problem we added the color harmonies palette generator.
+          </p>
+
+          <p class="m-4 text-lg" data-aos="fade-up">
+            This feature can be accessed by hovering the menu options of a
+            single color and clicking the slider. It supports generating
+            complementary, monochromatic, triad, and more!
+          </p>
+        </div>
+        <div class="w-full lg:w-1/2"></div>
       </div>
-    </div>
-
-    <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
-      <div class="flex justify-center w-full lg:justify-start lg:w-1/2">
-        <video
-          muted
-          loop
-          autoplay
-          class="h-auto max-h-full max-w-sm p-4 w-full"
-          data-aos="fade-up"
-        >
-          <source src="/video/palettes.mp4" type="video/mp4" />
-        </video>
-      </div>
-      <div class="w-full lg:w-1/2">
-        <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
-          Palettes
-        </h2>
-
-        <p class="m-4 text-lg" data-aos="fade-up">
-          Palettes are the main color organization method in Swach. You might
-          use them for separate projects, brands, inspiration, etc.
-        </p>
-
-        <p class="m-4 text-lg" data-aos="fade-up">
-          They can store as few or as many colors as you would like. Colors can
-          be moved from your color history into any palette, and between any
-          unlocked palettes as well.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
-      <div class="w-full lg:w-1/2">
-        <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
-          Color Harmonies
-        </h2>
-
-        <p class="m-4 text-lg" data-aos="fade-up">
-          Sometimes you may have one base color you particularly love, but you
-          are not sure what other colors might go with it. To remedy this
-          problem we added the color harmonies palette generator.
-        </p>
-
-        <p class="m-4 text-lg" data-aos="fade-up">
-          This feature can be accessed by hovering the menu options of a single
-          color and clicking the slider. It supports generating complementary,
-          monochromatic, triad, and more!
-        </p>
-      </div>
-      <div class="w-full lg:w-1/2"></div>
     </div>
   </div>
 </template>

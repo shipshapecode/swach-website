@@ -1,7 +1,7 @@
-import { resolve } from 'path';
+import { basename, resolve } from 'path';
 import glob from 'glob';
 
-const markdownPaths = ['content'];
+const markdownPaths = ['docs'];
 const description = 'A robust color management tool for the modern age.';
 const title = 'Swach';
 
@@ -96,7 +96,7 @@ function dynamicMarkdownRoutes() {
     ...markdownPaths.map((mdPath) => {
       return glob
         .sync(`${mdPath}/*.md`, { cwd: 'content' })
-        .map((filepath) => `${mdPath}/${path.basename(filepath, '.md')}`);
+        .map((filepath) => `${mdPath}/${basename(filepath, '.md')}`);
     })
   );
 }
