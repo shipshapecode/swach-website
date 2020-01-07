@@ -69,20 +69,6 @@
   white-space: pre-wrap;
 }
 
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  font-weight: 700;
-}
-
-.content img {
-  height: auto;
-  max-width: 100%;
-}
-
 .content li {
   display: list-item;
 }

@@ -115,6 +115,36 @@
           </video>
         </div>
       </div>
+
+      <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
+        <div class="flex justify-center w-full lg:justify-start lg:w-1/2">
+          <video
+            muted
+            loop
+            autoplay
+            class="h-auto max-h-full max-w-sm p-4 w-full"
+            data-aos="fade-up"
+          >
+            <source src="/video/contrast-checker.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+            Contrast Checker
+          </h2>
+
+          <p class="m-4 text-lg" data-aos="fade-up">
+            Ensure your color combinations are accessible and adhere to the WCAG
+            standard.
+          </p>
+
+          <p class="m-4 text-lg" data-aos="fade-up">
+            Colors with insufficient contrast can hurt accessibility and can be
+            frustrating for users of your product. Use this tool to avoid those
+            issues.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
