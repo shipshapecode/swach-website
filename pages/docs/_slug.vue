@@ -62,9 +62,10 @@
   background-color: #ecf3f6;
   border: none;
   border-radius: 2px;
-  font-size: 0.8rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
   line-height: 1rem;
-  padding: 0.1rem 0.2rem;
+  padding: 0.25rem 0.5rem;
   vertical-align: middle;
   white-space: pre-wrap;
 }

@@ -20,6 +20,12 @@
               Contrast Checker
             </nuxt-link>
           </li>
+
+          <li class="mb-2">
+            <nuxt-link to="/docs/shortcuts/">
+              Shortcuts
+            </nuxt-link>
+          </li>
         </ul>
       </aside>
       <article>

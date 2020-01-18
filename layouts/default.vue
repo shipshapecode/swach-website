@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
 @font-face {
   font-family: 'Muli';
   src: url('/fonts/muli-variable.ttf') format('truetype');
