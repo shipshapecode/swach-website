@@ -15,7 +15,7 @@
               class="bg-color1 btn block hover:bg-gray-800"
               href="https://hazel-kohl-kappa.now.sh/download"
             >
-              Try Swach for free
+              Download Swach
             </a>
           </div>
         </div>

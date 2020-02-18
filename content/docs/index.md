@@ -15,5 +15,6 @@ Swach was created by <a href="https://shipshape.io/" class="text-color1 hover:te
 
 ## Download Swach
 
-You can download a free trial of Swach here and try it risk free for 15 days. 
-After your trial ends, you’ll be prompted to purchase a license to continue using Swach.
+Swach is 100% free, no strings attached. If you enjoy using it, we would appreciate any donations
+to its continued development!
+

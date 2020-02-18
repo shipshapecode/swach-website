@@ -38,19 +38,11 @@
             Docs
           </nuxt-link>
 
-          <nuxt-link
-            @click.native="toggleNavMenu(false)"
-            class="nav-link"
-            to="/pricing/"
-          >
-            Pricing
-          </nuxt-link>
-
           <a
             class="border-color1 btn hidden nav-link pl-4 pr-4 text-color1 hover:text-white lg:block lg:border lg:hover:bg-color1"
             href="https://hazel-kohl-kappa.now.sh/download"
           >
-            Try for free
+            Download
           </a>
         </div>
       </div>

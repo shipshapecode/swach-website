@@ -9,18 +9,16 @@
         </nuxt-link>
 
         <a href="https://hazel-kohl-kappa.now.sh/download">
-          Free Trial
+          Download
         </a>
-
-        <nuxt-link to="/pricing/">
-          Pricing
-        </nuxt-link>
       </div>
     </nav>
 
     <div class="flex flex-wrap justify-center p-6 w-full">
       <p class="font-hairline text-sm">
-        Copyright © 2019 Ship Shape Consulting LLC. All rights reserved.
+        Copyright © 2020
+        <a href="https://shipshape.io">Ship Shape Consulting LLC.</a> All rights
+        reserved.
       </p>
     </div>
   </div>
