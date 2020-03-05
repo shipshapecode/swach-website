@@ -12,17 +12,22 @@
   @apply block font-bold p-2 mr-2 text-base text-gray-600;
 }
 
-@screen lg {
-  .nav-link {
-    @apply flex items-center mt-0;
-  }
-}
-
 .nav-link:active,
 .nav-link:visited {
   @apply text-gray-600;
 }
 
+@screen lg {
+  .nav-link {
+    @apply flex items-center mt-0 text-white;
+  }
+
+  .nav-link:active,
+  .nav-link:visited {
+    @apply text-white;
+  }
+}
+
 .nav-link:hover {
-  @apply text-gray-800;
+  @apply text-color1;
 }

@@ -21,7 +21,7 @@
               data-aos="fade-up"
             >
               <a
-                class="bg-color1 btn block font-gt-walsheim hover:bg-gray-800"
+                class="bg-color1 btn block font-gt-walsheim hover:bg-white hover:text-color1"
                 href="https://hazel-kohl-kappa.now.sh/download"
               >
                 Download free
