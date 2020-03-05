@@ -1,23 +1,32 @@
 <template>
   <div class="bg-color1 text-white">
-    <nav class="flex h-20 items-center justify-center p-6 w-full">
+    <nav class="flex h-56 items-end justify-center p-6 w-full">
       <div class="flex flex-wrap items-center justify-between max-w-6xl w-full">
-        <nuxt-link to="/docs/">
-          Docs
+        <nuxt-link
+          to="/"
+          class="font-bold font-gt-walsheim inline-flex items-center text-white text-2xl"
+        >
+          <SwachLogoLine class="inline h-10 mr-4 w-10" /> Swach
         </nuxt-link>
 
-        <a href="https://hazel-kohl-kappa.now.sh/download">
-          Download
-        </a>
+        <p class="text-color2 text-sm">
+          Copyright © 2020
+          <a class="underline hover:text-white" href="https://shipshape.io">
+            Ship Shape Consulting LLC.
+          </a>
+          All rights reserved.
+        </p>
       </div>
     </nav>
-
-    <div class="flex flex-wrap justify-center p-6 w-full">
-      <p class="text-sm">
-        Copyright © 2020
-        <a href="https://shipshape.io">Ship Shape Consulting LLC.</a> All rights
-        reserved.
-      </p>
-    </div>
   </div>
 </template>
+
+<script>
+import SwachLogoLine from '~/assets/svgs/swach-logo-line.svg?inline';
+
+export default {
+  components: {
+    SwachLogoLine
+  }
+};
+</script>
