@@ -5,6 +5,7 @@
 </h3>
 
 <img
+  alt="A Demo of the color picker choosing a color."
   class="h-auto max-w-md"
   src="/img/color-picker.png"
 />

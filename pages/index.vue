@@ -31,6 +31,7 @@
 
           <div class="flex justify-end w-full lg:w-1/2">
             <img
+              alt="The Swach app showing colors and palettes."
               class="block h-auto max-h-full max-w-md m-auto p-4 w-full lg:m-0"
               src="/img/swach.png"
               data-aos="fade-up"
@@ -47,6 +48,7 @@
         >
           <div class="w-full lg:w-1/2">
             <img
+              alt="A Demo of the color picker choosing a color."
               class="block h-auto max-h-full max-w-md m-auto p-4 w-full lg:m-0"
               src="/img/color-picker.png"
             />
