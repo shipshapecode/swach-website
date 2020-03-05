@@ -9,11 +9,17 @@ module.exports = {
     extend: {
       colors: {
         color1: '#0B0039',
-        color2: '#FE938C'
+        color2: '#FE938C',
+        'lightest-blue': '#edf7ff',
+        'light-blue': '#eef7fe',
+        peach: '#fff9f8'
       },
       fontFamily: {
         'gt-walsheim':
           "'GT Walsheim', 'Source Sans Pro', -apple-system BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+      },
+      fontSize: {
+        '5.5xl': '3.75rem'
       }
     }
   },

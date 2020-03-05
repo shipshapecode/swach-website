@@ -1,9 +1,7 @@
 <template>
-  <div>
+  <div class="bg-color1 text-white">
     <nav class="flex h-20 items-center justify-center p-6 w-full">
-      <div
-        class="flex flex-wrap font-medium items-center justify-between max-w-6xl w-full"
-      >
+      <div class="flex flex-wrap items-center justify-between max-w-6xl w-full">
         <nuxt-link to="/docs/">
           Docs
         </nuxt-link>
@@ -15,7 +13,7 @@
     </nav>
 
     <div class="flex flex-wrap justify-center p-6 w-full">
-      <p class="font-hairline text-sm">
+      <p class="text-sm">
         Copyright © 2020
         <a href="https://shipshape.io">Ship Shape Consulting LLC.</a> All rights
         reserved.

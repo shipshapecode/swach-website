@@ -1,5 +1,7 @@
 <template>
-  <nav class="flex h-20 items-center justify-center p-6 w-full">
+  <nav
+    class="bg-lightest-blue flex h-20 items-center justify-center p-6 w-full"
+  >
     <div class="flex font-medium items-center justify-between max-w-6xl w-full">
       <nuxt-link
         to="/"
@@ -39,7 +41,7 @@
           </nuxt-link>
 
           <a
-            class="btn hidden nav-link pl-4 pr-4 text-color1 hover:text-white lg:bg-white lg:block lg:hover:bg-color1 lg:rounded-full"
+            class="btn hidden text-color1 hover:text-white lg:bg-white lg:block lg:hover:bg-color1"
             href="https://hazel-kohl-kappa.now.sh/download"
           >
             Download

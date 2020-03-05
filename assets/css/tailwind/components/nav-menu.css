@@ -14,7 +14,7 @@
 
 @screen lg {
   .nav-link {
-    @apply inline-block mt-0;
+    @apply flex items-center mt-0;
   }
 }
 
