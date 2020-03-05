@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="58px" viewBox="0 0 71 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon 2c</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Swach-homepage" transform="translate(-155.000000, -3360.000000)" fill-rule="nonzero">
+            <g id="Icon-2c" transform="translate(146.000000, 3360.000000)">
+                <path d="M56.3408679,10.0546003 L79.9093117,10.0962859 L79.9510215,33.6647297 C79.962037,39.9154696 77.4895399,45.905805 73.0774145,50.3179304 C68.6652891,54.7300558 62.6749537,57.2025529 56.4242138,57.1915374 L56.4242138,57.1915374 C43.4145311,57.158849 32.8545756,46.5910839 32.8315382,33.5814147 L32.8315382,33.5814147 C32.808569,20.5717455 43.3312193,10.0412579 56.3408679,10.0546003 Z" id="Path" fill="#FF0040" transform="translate(56.391280, 33.623069) rotate(-45.000000) translate(-56.391280, -33.623069) "></path>
+                <path d="M33.3734359,10.0475198 L56.9418797,10.0892304 L56.9835903,33.6576741 C57.006568,46.6741662 46.4732739,57.2074603 33.4567818,57.1844826 L33.4567818,57.1844826 C20.4402897,57.1614296 9.8696804,46.5908203 9.84662742,33.5743282 L9.84662742,33.5743282 C9.82364973,20.5578362 20.3569438,10.0245421 33.3734359,10.0475198 Z" id="Path" fill="#0BE8E6" style="mix-blend-mode: multiply;" transform="translate(33.415109, 33.616001) rotate(-45.000000) translate(-33.415109, -33.616001) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
