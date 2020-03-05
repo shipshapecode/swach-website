@@ -88,6 +88,10 @@ export default {
         include: resolve(__dirname, 'content')
       });
     }
+  },
+  // TODO: enable this again, when we can figure out how to whitelist
+  purgeCSS: {
+    enabled: false
   }
 };
 
