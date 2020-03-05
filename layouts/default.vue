@@ -26,15 +26,25 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 
 @font-face {
-  font-family: 'Muli';
-  src: url('/fonts/muli-variable.ttf') format('truetype');
-  font-weight: 1 999;
+  font-family: 'Ginto Normal Trial';
+  src: url('/fonts/GintoNormalTrial-Regular.woff2') format('woff2'),
+    url('/fonts/GintoNormalTrial-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url('/fonts/GTWalsheimMedium.woff2') format('woff2'),
+    url('/fonts/GTWalsheimMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
 html {
   background-color: #fefefe;
-  font-family: Muli, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Ginto Normal Trial', 'Source Sans Pro', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

@@ -3,7 +3,10 @@
     <div class="max-w-6xl w-full">
       <div class="flex flex-wrap items-center w-full">
         <div class="w-full lg:w-1/2">
-          <h1 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+          <h1
+            class="font-gt-walsheim p-4 text-3xl md:text-5xl"
+            data-aos="fade-up"
+          >
             A robust color management tool for the modern age.
           </h1>
 
@@ -12,7 +15,7 @@
             data-aos="fade-up"
           >
             <a
-              class="bg-color1 btn block hover:bg-gray-800"
+              class="bg-color1 btn block font-gt-walsheim hover:bg-gray-800 rounded-full"
               href="https://hazel-kohl-kappa.now.sh/download"
             >
               Download Swach
@@ -31,7 +34,10 @@
 
       <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
         <div class="w-full lg:w-1/2">
-          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+          <h2
+            class="font-gt-walsheim p-4 text-3xl md:text-5xl"
+            data-aos="fade-up"
+          >
             Color Picker
           </h2>
 
@@ -68,7 +74,10 @@
           </video>
         </div>
         <div class="w-full lg:w-1/2">
-          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+          <h2
+            class="font-gt-walsheim p-4 text-3xl md:text-5xl"
+            data-aos="fade-up"
+          >
             Palettes
           </h2>
 
@@ -87,7 +96,10 @@
 
       <div class="flex flex-wrap items-center mb-4 mt-4 max-w-6xl w-full">
         <div class="w-full lg:w-1/2">
-          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+          <h2
+            class="font-gt-walsheim p-4 text-3xl md:text-5xl"
+            data-aos="fade-up"
+          >
             Color Harmonies
           </h2>
 
@@ -129,7 +141,10 @@
           </video>
         </div>
         <div class="w-full lg:w-1/2">
-          <h2 class="font-hairline p-4 text-3xl md:text-5xl" data-aos="fade-up">
+          <h2
+            class="font-gt-walsheim p-4 text-3xl md:text-5xl"
+            data-aos="fade-up"
+          >
             Contrast Checker
           </h2>
 

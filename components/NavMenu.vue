@@ -1,9 +1,9 @@
 <template>
-  <nav class="flex h-20 items-center justify-center p-6 shadow w-full">
+  <nav class="flex h-20 items-center justify-center p-6 w-full">
     <div class="flex font-medium items-center justify-between max-w-6xl w-full">
       <nuxt-link
         to="/"
-        class="font-bold inline-flex items-center text-gray-800 text-2xl"
+        class="font-bold font-gt-walsheim inline-flex items-center text-gray-800 text-2xl"
       >
         <SwachLogo class="inline h-10 mr-4 w-10" /> Swach
       </nuxt-link>
@@ -39,7 +39,7 @@
           </nuxt-link>
 
           <a
-            class="border-color1 btn hidden nav-link pl-4 pr-4 text-color1 hover:text-white lg:block lg:border lg:hover:bg-color1"
+            class="btn hidden nav-link pl-4 pr-4 text-color1 hover:text-white lg:bg-white lg:block lg:hover:bg-color1 lg:rounded-full"
             href="https://hazel-kohl-kappa.now.sh/download"
           >
             Download

@@ -8,8 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        color1: '#4281A4',
+        color1: '#0B0039',
         color2: '#FE938C'
+      },
+      fontFamily: {
+        'gt-walsheim':
+          "'GT Walsheim', 'Source Sans Pro', -apple-system BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
       }
     }
   },
