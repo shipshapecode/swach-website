@@ -13,6 +13,7 @@ module.exports = {
         color2: '#d2c7fd',
         'lightest-blue': '#edf7ff',
         'light-blue': '#eef7fe',
+        mustard: '#ffaf14',
         peach: '#fff9f8'
       },
       fontFamily: {
@@ -21,6 +22,14 @@ module.exports = {
       },
       fontSize: {
         '5.5xl': '3.75rem'
+      },
+      spacing: {
+        '72': '18rem',
+        '80': '20rem',
+        '88': '22rem',
+        '96': '24rem',
+        '104': '26rem',
+        '140': '36rem'
       }
     }
   },

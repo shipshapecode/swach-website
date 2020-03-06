@@ -42,7 +42,7 @@
     </div>
 
     <div
-      class="bg-white flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
+      class="bg-white flex flex-wrap justify-center pb-32 pl-8 pr-8 pt-32 w-full"
     >
       <div class="max-w-6xl w-full" data-aos="fade-up">
         <div
@@ -78,9 +78,7 @@
       </div>
     </div>
 
-    <div
-      class="bg-light-blue flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
-    >
+    <div class="bg-light-blue flex flex-wrap justify-center pl-8 pr-8 w-full">
       <div class="max-w-6xl w-full" data-aos="fade-up">
         <div
           class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
@@ -119,13 +117,17 @@
     </div>
 
     <div
-      class="bg-white flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
+      class="bg-white flex flex-wrap justify-center pb-24 pl-8 pr-8 pt-24 w-full"
     >
-      <div class="max-w-6xl w-full" data-aos="fade-up">
+      <div class="max-w-6xl relative w-full" data-aos="fade-up">
+        <div class="circle lg:h-72 lg:w-72"></div>
+
         <div
-          class="flex flex-col-reverse flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
+          class="flex flex-col-reverse flex-wrap items-center mb-4 mt-4 w-full lg:flex-row z-10"
         >
-          <div class="flex justify-center w-full lg:justify-start lg:w-1/2">
+          <div
+            class="flex justify-center w-full lg:justify-start lg:w-1/2 z-10"
+          >
             <video
               muted
               loop
@@ -136,7 +138,7 @@
             </video>
           </div>
 
-          <div class="w-full lg:w-1/2">
+          <div class="w-full lg:w-1/2 z-10">
             <ColorHarmoniesIcon class="inline-block ml-4 h-16 w-16" />
 
             <h2 class="font-gt-walsheim p-4 text-3xl md:text-5xl">
@@ -162,11 +164,13 @@
     <div
       class="bg-peach flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
     >
-      <div class="max-w-6xl w-full" data-aos="fade-up">
+      <div class="max-w-6xl relative w-full" data-aos="fade-up">
+        <div class="square rotate-45 transform lg:h-72 lg:w-72"></div>
+
         <div
-          class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
+          class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row z-10"
         >
-          <div class="w-full lg:w-1/2">
+          <div class="w-full lg:w-1/2 z-10">
             <ContrastCheckerIcon class="inline-block ml-4 h-16 w-16" />
 
             <h2 class="font-gt-walsheim p-4 text-3xl md:text-5xl">
@@ -185,7 +189,7 @@
             </p>
           </div>
 
-          <div class="w-full lg:w-1/2">
+          <div class="w-full lg:w-1/2 z-10">
             <video
               muted
               loop
