@@ -1,6 +1,9 @@
 <template>
   <nav
-    class="bg-lightest-blue flex h-20 items-center justify-center p-6 w-full"
+    class="top-nav flex h-20 items-center justify-center p-6 pb-12 pt-12 sticky top-0 w-full z-50"
+    :class="{
+      'bg-white': this.scrolledDown
+    }"
   >
     <div class="flex font-medium items-center justify-between max-w-6xl w-full">
       <nuxt-link
@@ -34,6 +37,9 @@
 
           <nuxt-link
             @click.native="toggleNavMenu(false)"
+            :class="{
+              'nav-link-alt': this.scrolledDown || this.$route.name !== 'index'
+            }"
             class="nav-link"
             to="/docs/"
           >
@@ -41,7 +47,13 @@
           </nuxt-link>
 
           <a
-            class="btn hidden text-color1 hover:text-white lg:bg-white lg:block lg:hover:bg-color1"
+            :class="{
+              'text-color1 hover:text-white lg:bg-white lg:hover:bg-color1':
+                !this.scrolledDown && this.$route.name === 'index',
+              'text-white lg:bg-color1 lg:hover:bg-alt':
+                this.scrolledDown || this.$route.name !== 'index'
+            }"
+            class="download btn hidden lg:block"
             href="https://hazel-kohl-kappa.now.sh/download"
           >
             Download
@@ -63,7 +75,19 @@ export default {
     Menu,
     SwachLogo
   },
+  data() {
+    return {
+      scrolledDown: false
+    };
+  },
   methods: {
+    handleScroll() {
+      if (window.scrollY >= 80) {
+        this.scrolledDown = true;
+      } else {
+        this.scrolledDown = false;
+      }
+    },
     toggleNavMenu(open) {
       const mobileNavShown = window.innerWidth < 1024;
       if (mobileNavShown) {
@@ -78,6 +102,12 @@ export default {
         }
       }
     }
+  },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 };
 </script>
@@ -86,5 +116,10 @@ export default {
 .hamburger-menu {
   height: 36px;
   width: 36px;
+}
+
+.download,
+.top-nav {
+  transition: all 0.25s linear;
 }
 </style>

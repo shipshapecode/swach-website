@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <div
+    :class="{
+      'bg-lightest-blue': this.$route.name === 'index'
+    }"
+  >
     <NavMenu />
 
     <main class="min-h-screen">

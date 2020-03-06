@@ -12,6 +12,10 @@
   @apply block font-bold p-2 mr-2 text-base text-gray-600;
 }
 
+.nav-link-alt {
+  @apply block font-bold p-2 mr-2 text-base text-color1;
+}
+
 .nav-link:active,
 .nav-link:visited {
   @apply text-gray-600;
@@ -26,8 +30,17 @@
   .nav-link:visited {
     @apply text-white;
   }
+
+  .nav-link-alt:active,
+  .nav-link-alt:visited {
+    @apply text-color1;
+  }
 }
 
 .nav-link:hover {
   @apply text-color1;
+}
+
+.nav-link-alt:hover {
+  @apply text-alt;
 }

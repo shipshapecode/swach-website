@@ -41,7 +41,9 @@
       </div>
     </div>
 
-    <div class="flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full">
+    <div
+      class="bg-white flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
+    >
       <div class="max-w-6xl w-full" data-aos="fade-up">
         <div
           class="flex flex-col-reverse flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
@@ -116,7 +118,9 @@
       </div>
     </div>
 
-    <div class="flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full">
+    <div
+      class="bg-white flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
+    >
       <div class="max-w-6xl w-full" data-aos="fade-up">
         <div
           class="flex flex-col-reverse flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
