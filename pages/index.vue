@@ -29,10 +29,10 @@
             </div>
           </div>
 
-          <div class="flex justify-end w-full lg:w-1/2">
+          <div class="flex flex-shrink justify-end w-full lg:w-1/2">
             <img
               alt="The Swach app showing colors and palettes."
-              class="block h-auto max-h-full max-w-md m-auto p-4 w-full lg:m-0"
+              class="block h-auto max-w-md m-auto p-4 w-full lg:m-0"
               src="/img/swach.png"
               data-aos="fade-up"
             />
@@ -102,13 +102,10 @@
             </p>
           </div>
 
-          <div class="flex justify-center w-full lg:justify-end lg:w-1/2">
-            <video
-              muted
-              loop
-              autoplay
-              class="h-auto max-h-full max-w-sm p-4 w-full"
-            >
+          <div
+            class="flex flex-shrink justify-center w-full lg:justify-end lg:w-1/2"
+          >
+            <video muted loop autoplay class="h-auto max-w-sm p-4 w-full">
               <source src="/video/palettes.mp4" type="video/mp4" />
             </video>
           </div>
@@ -159,7 +156,9 @@
       class="bg-peach flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
     >
       <div class="max-w-6xl w-full" data-aos="fade-up">
-        <div class="flex flex-wrap items-center mb-4 mt-4 w-full">
+        <div
+          class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
+        >
           <div class="w-full lg:w-1/2">
             <ContrastCheckerIcon class="inline-block ml-4 h-16 w-16" />
 
@@ -180,12 +179,7 @@
           </div>
 
           <div class="flex justify-center w-full lg:justify-end lg:w-1/2">
-            <video
-              muted
-              loop
-              autoplay
-              class="h-auto max-h-full max-w-sm p-4 w-full"
-            >
+            <video muted loop autoplay class="h-auto max-w-sm p-4 w-full">
               <source src="/video/contrast-checker.mp4" type="video/mp4" />
             </video>
           </div>
