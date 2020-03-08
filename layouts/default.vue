@@ -47,6 +47,7 @@ export default {
 
 html {
   background-color: #fefefe;
+  box-sizing: border-box;
   font-family: 'Ginto Normal Trial', 'Source Sans Pro', -apple-system,
     BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
@@ -55,7 +56,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+
+  @apply text-body;
 }
 
 *,
@@ -70,5 +72,14 @@ button {
   text-decoration: none;
   transition-duration: 0.25s;
   transition-property: all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-gt-walsheim text-color1;
 }
 </style>

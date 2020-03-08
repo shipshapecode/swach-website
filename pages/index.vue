@@ -8,10 +8,7 @@
       <div class="max-w-6xl w-full z-10">
         <div class="flex flex-col flex-wrap items-center w-full lg:flex-row">
           <div class="w-full lg:w-1/2">
-            <h1
-              class="font-gt-walsheim p-4 text-4xl md:text-5.5xl"
-              data-aos="fade-up"
-            >
+            <h1 class="p-4 text-4xl md:text-5.5xl" data-aos="fade-up">
               A robust color management tool for the
               <span class="modern-underline">modern age.</span>
             </h1>
@@ -59,7 +56,7 @@
           <div class="w-full lg:w-1/2">
             <ColorPickerIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="font-gt-walsheim p-4 text-3xl md:text-5xl">
+            <h2 class="p-4 text-3xl md:text-5xl">
               Color Picker
             </h2>
 
@@ -86,7 +83,7 @@
           <div class="w-full lg:w-1/2">
             <PalettesIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="font-gt-walsheim p-4 text-3xl md:text-5xl">
+            <h2 class="p-4 text-3xl md:text-5xl">
               Palettes
             </h2>
 
@@ -141,7 +138,7 @@
           <div class="w-full lg:w-1/2 z-10">
             <ColorHarmoniesIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="font-gt-walsheim p-4 text-3xl md:text-5xl">
+            <h2 class="p-4 text-3xl md:text-5xl">
               Color Harmonies
             </h2>
 
@@ -173,7 +170,7 @@
           <div class="w-full lg:w-1/2 z-10">
             <ContrastCheckerIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="font-gt-walsheim p-4 text-3xl md:text-5xl">
+            <h2 class="p-4 text-3xl md:text-5xl">
               Contrast Checker
             </h2>
 
