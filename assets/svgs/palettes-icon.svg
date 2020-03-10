@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="46px" viewBox="0 0 100 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Icon 1c</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Swach-homepage" transform="translate(-149.000000, -1729.000000)" fill-rule="nonzero">
-            <g id="Icon-1c" transform="translate(149.000000, 1729.000000)">
-                <ellipse id="Oval" fill="#0BE8E6" cx="50.1015038" cy="22.9095082" rx="22.7105263" ry="22.777541"></ellipse>
-                <ellipse id="Oval" fill="#FFAF15" style="mix-blend-mode: multiply;" cx="77.018797" cy="22.7813115" rx="22.7105263" ry="22.777541"></ellipse>
-                <ellipse id="Oval" fill="#FF0040" style="mix-blend-mode: multiply;" cx="22.7142857" cy="22.7813115" rx="22.7105263" ry="22.777541"></ellipse>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265.29 121.19"><defs><style>.cls-1piab{isolation:isolate;}.cls-2piab{fill:#0be8e6;}.cls-3piab{fill:#ffaf15;}.cls-3piab,.cls-4piab{mix-blend-mode:multiply;}.cls-4piab{fill:#ff0040;}.cls-5piab{fill:#0b0038;}</style></defs><title>swachicon1</title><g class="cls-1piab"><g id="Layer_1" data-name="Layer 1"><circle class="cls-2piab" cx="133.27" cy="60.76" r="60.41"/><circle class="cls-3piab" cx="204.87" cy="60.42" r="60.41"/><circle class="cls-4piab" cx="60.42" cy="60.42" r="60.41"/><path class="cls-5piab" d="M97.07,11.93a60.41,60.41,0,0,0-.44,96.39,60.41,60.41,0,0,0,.44-96.39Z"/></g></g></svg>

@@ -3,7 +3,7 @@
     <div
       class="bg-lightest-blue flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
     >
-      <TopBg class="absolute hidden right-0 top-0 z-0 lg:block" />
+      <SwachDockIcon class="top-bg absolute hidden z-0 lg:block" />
 
       <div class="max-w-6xl w-full z-10">
         <div class="flex flex-col flex-wrap items-center w-full lg:flex-row">
@@ -211,6 +211,13 @@
 .modern-underline {
   border-bottom: 5px solid #36cad2;
 }
+
+.top-bg {
+  height: 1030px;
+  right: -172px;
+  top: -294px;
+  width: 1030px;
+}
 </style>
 
 <script>
@@ -218,7 +225,7 @@ import ColorHarmoniesIcon from '~/assets/svgs/color-harmonies-icon.svg?inline';
 import ColorPickerIcon from '~/assets/svgs/color-picker-icon.svg?inline';
 import ContrastCheckerIcon from '~/assets/svgs/contrast-checker-icon.svg?inline';
 import PalettesIcon from '~/assets/svgs/palettes-icon.svg?inline';
-import TopBg from '~/assets/svgs/top-bg.svg?inline';
+import SwachDockIcon from '~/assets/svgs/swach-dock-icon.svg?inline';
 
 export default {
   components: {
@@ -226,7 +233,7 @@ export default {
     ColorPickerIcon,
     ContrastCheckerIcon,
     PalettesIcon,
-    TopBg
+    SwachDockIcon
   }
 };
 </script>

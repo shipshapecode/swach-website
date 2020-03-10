@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Icon 3c</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Swach-homepage" transform="translate(-840.000000, -1023.000000)" fill-rule="nonzero">
-            <g id="Icon-3c" transform="translate(840.000000, 1023.000000)">
-                <circle id="Oval" fill="#0BE8E6" cx="29.9715976" cy="29.9715976" r="18.1384615"></circle>
-                <path d="M29.9715976,0 C13.4187413,0 0,13.4187413 0,29.9715976 C0,46.5244539 13.4187413,59.9431953 29.9715976,59.9431953 C46.5244539,59.9431953 59.9431953,46.5244539 59.9431953,29.9715976 L29.9715976,29.9715976 L29.9715976,0 Z" id="Path" fill="#FF0040" style="mix-blend-mode: multiply;"></path>
-                <circle id="Oval" fill="#FFAF15" style="mix-blend-mode: multiply;" cx="51.0426036" cy="8.84733728" r="7.19289941"></circle>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.84 168.84"><defs><style>.cls-1cpiab{isolation:isolate;}.cls-2cpiab{fill:#0be8e6;}.cls-3cpiab{fill:#ff0040;}.cls-3cpiab,.cls-4cpiab{mix-blend-mode:multiply;}.cls-4cpiab{fill:#ffaf15;}.cls-5cpiab{fill:#0b0038;}</style></defs><title>swachicon3</title><g class="cls-1cpiab"><g id="Layer_1" data-name="Layer 1"><circle class="cls-2cpiab" cx="84.42" cy="84.42" r="51.09"/><path class="cls-3cpiab" d="M84.42,0a84.42,84.42,0,1,0,84.42,84.42H84.42Z"/><circle class="cls-4cpiab" cx="143.77" cy="24.92" r="20.26"/><path class="cls-5cpiab" d="M84.42,33.33a51.09,51.09,0,1,0,51.09,51.09H84.42Z"/></g></g></svg>
