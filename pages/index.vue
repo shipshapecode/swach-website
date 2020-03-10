@@ -18,7 +18,7 @@
               data-aos="fade-up"
             >
               <a
-                class="bg-color1 btn block font-gt-walsheim hover:bg-white hover:text-color1"
+                class="bg-color1 btn block font-gt-walsheim text-white hover:bg-white hover:text-color1"
                 href="https://download.swach.io/download"
               >
                 Download free
