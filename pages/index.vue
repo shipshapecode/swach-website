@@ -19,7 +19,7 @@
             >
               <a
                 class="bg-color1 btn block font-gt-walsheim hover:bg-white hover:text-color1"
-                href="https://hazel-kohl-kappa.now.sh/download"
+                href="https://download.swach.io/download"
               >
                 Download free
               </a>

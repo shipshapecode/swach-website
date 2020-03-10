@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="top-nav flex h-20 items-center justify-center p-6 pb-12 pt-12 sticky top-0 w-full z-50"
     :class="{
       'bg-white': this.scrolledDown
     }"
+    class="top-nav flex h-20 items-center justify-center p-6 pb-12 pt-12 sticky top-0 w-full z-50"
   >
     <div class="flex font-medium items-center justify-between max-w-6xl w-full">
       <nuxt-link
@@ -54,7 +54,7 @@
                 this.scrolledDown || this.$route.name !== 'index'
             }"
             class="download btn hidden lg:block"
-            href="https://hazel-kohl-kappa.now.sh/download"
+            href="https://download.swach.io/download"
           >
             Download
           </a>
