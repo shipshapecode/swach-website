@@ -101,9 +101,10 @@
 
           <div class="w-full lg:w-1/2">
             <video
+              autoplay
               muted
               loop
-              autoplay
+              playsinline
               class="h-auto max-w-sm m-auto p-4 w-full lg:ml-auto lg:mr-0"
             >
               <source src="/video/palettes.mp4" type="video/mp4" />
@@ -126,9 +127,10 @@
             class="flex justify-center w-full lg:justify-start lg:w-1/2 z-10"
           >
             <video
+              autoplay
               muted
               loop
-              autoplay
+              playsinline
               class="h-auto max-h-full max-w-sm p-4 w-full"
             >
               <source src="/video/color-harmonies.mp4" type="video/mp4" />
@@ -188,9 +190,10 @@
 
           <div class="w-full lg:w-1/2 z-10">
             <video
+              autoplay
               muted
               loop
-              autoplay
+              playsinline
               class="h-auto max-w-sm m-auto p-4 w-full lg:ml-auto lg:mr-0"
             >
               <source src="/video/contrast-checker.mp4" type="video/mp4" />
