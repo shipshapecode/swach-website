@@ -6,7 +6,7 @@
   >
     <NavMenu />
 
-    <main class="min-h-screen">
+    <main class="min-h-screen overflow-hidden w-screen">
       <nuxt />
     </main>
 
@@ -58,6 +58,10 @@ html {
   -webkit-font-smoothing: antialiased;
 
   @apply text-body;
+}
+
+body {
+  @apply overflow-x-hidden;
 }
 
 *,
