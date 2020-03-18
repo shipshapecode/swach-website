@@ -123,15 +123,13 @@
         <div
           class="flex flex-col-reverse flex-wrap items-center mb-4 mt-4 w-full lg:flex-row z-10"
         >
-          <div
-            class="flex justify-center w-full lg:justify-start lg:w-1/2 z-10"
-          >
+          <div class="w-full lg:w-1/2 z-10">
             <video
               autoplay
               muted
               loop
               playsinline
-              class="h-auto max-h-full max-w-sm p-4 w-full"
+              class="h-auto m-auto max-h-full max-w-sm p-4 w-full lg:m-0"
             >
               <source src="/video/color-harmonies.mp4" type="video/mp4" />
             </video>
