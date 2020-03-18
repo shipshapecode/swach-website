@@ -2,6 +2,7 @@
 
 ## macOS
 
+* Open Picker `⌃` `⌥` `⌘` `P`
 * Undo Action `⌘` `Z`
 * Redo Action `⇧` `⌘` `Z`
 
@@ -9,4 +10,8 @@
 
 * Undo Action `CTRL` `Z`
 * Redo Action `⇧` `CTRL` `Z`
+
+<footer class="flex justify-between lg:hidden">
+  <a class="text-alt hover:text-color1" href="/docs/contrast-checker/">← Contrast Checker</a>
+</footer>
 

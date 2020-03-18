@@ -14,3 +14,8 @@ You can access the picker in different ways:
 
 - Selecting the icon on the Menu Toolbar
 - Using the `⌃` `⌥` `⌘` `P` shortcut
+
+<footer class="flex justify-between lg:hidden">
+  <a class="text-alt hover:text-color1" href="/docs/">← Getting started</a>
+  <a class="text-alt hover:text-color1" href="/docs/contrast-checker/">Contrast Checker →</a>
+</footer>
