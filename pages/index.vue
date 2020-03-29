@@ -107,7 +107,7 @@
               playsinline
               class="h-auto max-w-sm m-auto p-4 w-full lg:ml-auto lg:mr-0"
             >
-              <source src="/video/palettes.mp4" type="video/mp4" />
+              <source src="/video/palettes2.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -131,7 +131,7 @@
               playsinline
               class="h-auto m-auto max-h-full max-w-sm p-4 w-full lg:m-0"
             >
-              <source src="/video/color-harmonies.mp4" type="video/mp4" />
+              <source src="/video/color-harmonies2.mp4" type="video/mp4" />
             </video>
           </div>
 
@@ -194,7 +194,7 @@
               playsinline
               class="h-auto max-w-sm m-auto p-4 w-full lg:ml-auto lg:mr-0"
             >
-              <source src="/video/contrast-checker.mp4" type="video/mp4" />
+              <source src="/video/contrast-checker2.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
