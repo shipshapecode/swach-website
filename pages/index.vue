@@ -61,9 +61,9 @@
             </h2>
 
             <p class="m-4 text-lg">
-              Our color picker runs natively across MacOS, Windows, and Linux
-              (coming soon), allowing you to have the same seamless workflow,
-              regardless of what machine you might be on.
+              Our color picker runs natively across MacOS, Windows, and Linux,
+              allowing you to have the same seamless workflow, regardless of
+              what machine you might be on.
             </p>
 
             <p class="m-4 text-lg">

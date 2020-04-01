@@ -88,9 +88,7 @@
 export default {
   async asyncData({ params }) {
     try {
-      const doc = await import(
-        `~/content/docs/${params.slug || 'getting-started'}.md`
-      );
+      const doc = await import('~/content/docs/getting-started.md');
       return {
         doc
       };
