@@ -10,7 +10,7 @@ Swach was created by <a href="https://shipshape.io/" class="text-alt hover:text-
 
 - macOS High Sierra (10.13) or newer
 - Windows 8 or newer
-- Ubuntu 18.04 or newer (coming soon)
+- Ubuntu 18.04 or newer
 - Other various linux distros (coming soon)
 
 ## Download Swach
