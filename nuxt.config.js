@@ -71,7 +71,8 @@ export default {
         id: 'UA-84561982-2'
       }
     ],
-    'nuxt-svg'
+    'nuxt-svg',
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Nuxt.js modules
@@ -98,6 +99,10 @@ export default {
   // TODO: enable this again, when we can figure out how to whitelist
   purgeCSS: {
     enabled: false
+  },
+  sitemap: {
+    hostname: 'https://swach.io',
+    trailingSlash: true
   }
 };
 
