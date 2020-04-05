@@ -17,12 +17,12 @@
               class="flex justify-center m-4 lg:justify-start"
               data-aos="fade-up"
             >
-              <a
+              <nuxt-link
                 class="bg-color1 btn block font-gt-walsheim text-white hover:bg-white hover:text-color1"
-                href="https://download.swach.io/download"
+                to="/download/"
               >
                 Download free
-              </a>
+              </nuxt-link>
             </div>
           </div>
 

@@ -46,7 +46,7 @@
             Docs
           </nuxt-link>
 
-          <a
+          <nuxt-link
             :class="{
               'text-color1 hover:text-white lg:bg-white lg:hover:bg-color1':
                 !this.scrolledDown && this.$route.name === 'index',
@@ -54,10 +54,10 @@
                 this.scrolledDown || this.$route.name !== 'index'
             }"
             class="download btn hidden lg:block"
-            href="https://download.swach.io/download"
+            to="/download/"
           >
             Download
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>
