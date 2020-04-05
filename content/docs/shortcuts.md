@@ -3,6 +3,7 @@
 ## macOS
 
 * Open Picker `⌃` `⌥` `⌘` `P`
+* Open Contrast Checker `⌃` `⌥` `⌘` `C`
 * Undo Action `⌘` `Z`
 * Redo Action `⇧` `⌘` `Z`
 
