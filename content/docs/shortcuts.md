@@ -9,10 +9,10 @@
 
 ## Windows + Linux
 
-* Open Picker `⌃` `⌥` `⊞ Win` `P`
-* Open Contrast Checker `⌃` `⌥` `⊞ Win` `C`
-* Undo Action `CTRL` `Z`
-* Redo Action `⇧` `CTRL` `Z`
+* Open Picker `Ctrl` `Alt` `⊞ Win` `P`
+* Open Contrast Checker `Ctrl` `Alt` `⊞ Win` `C`
+* Undo Action `Ctrl` `Z`
+* Redo Action `⇧` `Ctrl` `Z`
 
 <footer class="flex justify-between lg:hidden">
   <a class="text-alt hover:text-color1" href="/docs/contrast-checker/">← Contrast Checker</a>
