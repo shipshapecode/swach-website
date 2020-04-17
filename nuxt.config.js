@@ -103,6 +103,9 @@ export default {
   sitemap: {
     hostname: 'https://swach.io',
     trailingSlash: true
+  },
+  workbox: {
+    cachingExtensions: '@/plugins/workbox-range-request.js'
   }
 };
 
