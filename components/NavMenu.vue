@@ -1,7 +1,7 @@
 <template>
   <nav
     :class="{
-      'bg-white': this.scrolledDown
+      'bg-white': scrolledDown
     }"
     class="top-nav flex h-20 items-center justify-center p-6 pb-12 pt-12 sticky top-0 w-full z-50"
   >
@@ -38,7 +38,7 @@
           <nuxt-link
             @click.native="toggleNavMenu(false)"
             :class="{
-              'nav-link-alt': this.scrolledDown || this.$route.name !== 'index'
+              'nav-link-alt': scrolledDown || this.$route.name !== 'index'
             }"
             class="nav-link"
             to="/docs/"
@@ -49,9 +49,9 @@
           <nuxt-link
             :class="{
               'text-color1 hover:text-white lg:bg-white lg:hover:bg-color1':
-                !this.scrolledDown && this.$route.name === 'index',
+                !scrolledDown && this.$route.name === 'index',
               'text-white lg:bg-color1 lg:hover:bg-alt':
-                this.scrolledDown || this.$route.name !== 'index'
+                scrolledDown || this.$route.name !== 'index'
             }"
             class="download btn hidden lg:block"
             to="/download/"
@@ -80,6 +80,12 @@ export default {
       scrolledDown: false
     };
   },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
   methods: {
     handleScroll() {
       if (window.scrollY >= 80) {
@@ -102,12 +108,6 @@ export default {
         }
       }
     }
-  },
-  beforeMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
   }
 };
 </script>

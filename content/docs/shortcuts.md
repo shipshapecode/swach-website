@@ -7,8 +7,10 @@
 * Undo Action `⌘` `Z`
 * Redo Action `⇧` `⌘` `Z`
 
-## Windows
+## Windows + Linux
 
+* Open Picker `⌃` `⌥` `⊞ Win` `P`
+* Open Contrast Checker `⌃` `⌥` `⊞ Win` `C`
 * Undo Action `CTRL` `Z`
 * Redo Action `⇧` `CTRL` `Z`
 
