@@ -3,5 +3,6 @@
 module.exports = {
   arrowParens: 'always',
   semi: true,
-  singleQuote: true
+  singleQuote: true,
+  trailingComma: 'none'
 };

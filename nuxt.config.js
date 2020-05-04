@@ -4,6 +4,8 @@ import glob from 'glob';
 const markdownPaths = ['docs'];
 const description = 'A robust color management tool for the modern age.';
 const title = 'Swach';
+const imgSrc = 'https://swach.io/img/logo.png';
+const twitterUsername = '@shipshapecode';
 
 export default {
   mode: 'universal',
@@ -15,6 +17,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'referrer', content: 'unsafe-url' },
       {
         hid: 'og:title',
         property: 'og:title',
@@ -25,6 +28,12 @@ export default {
         property: 'og:site_name',
         content: title
       },
+      // Opengraph
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:image', property: 'og:image', content: imgSrc },
+      { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '256' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '256' },
       {
         hid: 'description',
         name: 'description',
@@ -39,7 +48,16 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content: description
-      }
+      },
+      // Twitter
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: 'twitter:site', name: 'twitter:site', content: twitterUsername },
+      {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: twitterUsername
+      },
+      { hid: 'twitter:image:src', name: 'twitter:image:src', content: imgSrc }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
