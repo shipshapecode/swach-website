@@ -13,7 +13,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title,
+    titleTemplate: '%s - Swach',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,11 +23,8 @@ export default {
         property: 'og:title',
         content: title
       },
-      {
-        hid: 'og:site_name',
-        property: 'og:site_name',
-        content: title
-      },
+      { hid: 'og:site_name', property: 'og:site_name', content: title },
+      { hid: 'og:url', property: 'og:url', content: 'https://swach.io/' },
       // Opengraph
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:image', property: 'og:image', content: imgSrc },

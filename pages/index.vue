@@ -241,6 +241,12 @@ export default {
     ContrastCheckerIcon,
     PalettesIcon,
     SwachDockIcon
+  },
+
+  head() {
+    return {
+      title: 'A robust color management tool for the modern age.'
+    };
   }
 };
 </script>
