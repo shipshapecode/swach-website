@@ -4,6 +4,13 @@
 </template>
 
 <style>
+.content a {
+  @apply text-alt;
+}
+
+.content a:hover {
+  @apply text-color1;
+}
 .content h1 {
   font-size: 2.5em;
   line-height: 1.2;
@@ -17,6 +24,7 @@
 }
 
 .content h3 {
+  @apply font-hairline;
   font-size: 1.75em;
   line-height: 1.28571;
   margin-bottom: 0.85714em;
