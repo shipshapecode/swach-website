@@ -1,3 +1,8 @@
+---
+title: Shortcuts
+description: Learn Swach keyboard shortcuts for faster navigation.
+---
+
 # Shortcuts
 
 ## macOS

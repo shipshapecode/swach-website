@@ -93,6 +93,8 @@
 }
 </style>
 <script>
+import { generateMeta } from '~/utils/meta';
+
 export default {
   async asyncData({ params }) {
     try {
@@ -105,6 +107,13 @@ export default {
     } catch (error) {
       return false;
     }
+  },
+
+  head() {
+    const title = `${this.$data.doc.attributes.title || ''} - Docs`;
+    const description = `${this.$data.doc.attributes.description || ''}`;
+    const url = `https://swach.io${this.$route.path}`;
+    return generateMeta(title, description, url);
   }
 };
 </script>

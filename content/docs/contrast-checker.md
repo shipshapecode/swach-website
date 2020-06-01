@@ -1,7 +1,11 @@
+---
+title: Contrast Checker
+description: Learn how the Swach contrast checker helps you ensure WCAG 2.0 compliance.
+---
+
 # Contrast Checker
 
-
- ### The contrast checker helps you ensure your color combinations are always accessible and adhere to the [WCAG 2.0](https://www.w3.org/WAI/intro/wcag) standards.
+### The contrast checker helps you ensure your color combinations are always accessible and adhere to the [WCAG 2.0](https://www.w3.org/WAI/intro/wcag) standards.
 
 <div class="flex justify-center w-full">
   <img

@@ -85,8 +85,10 @@
 }
 </style>
 <script>
+import { generateMeta } from '~/utils/meta';
+
 export default {
-  async asyncData({ params }) {
+  async asyncData() {
     try {
       const doc = await import('~/content/docs/getting-started.md');
       return {
@@ -95,6 +97,12 @@ export default {
     } catch (error) {
       return false;
     }
+  },
+  head() {
+    const title = 'Getting Started - Docs';
+    const description = 'The documentation for Swach.';
+    const url = 'https://swach.io/docs/';
+    return generateMeta(title, description, url);
   }
 };
 </script>

@@ -1,3 +1,8 @@
+---
+title: Getting Started
+description: The documentation for Swach.
+---
+
 # Getting Started
 
 ### Swach is a robust color management tool for the modern age. It allows you to collect colors and organize them into palettes.

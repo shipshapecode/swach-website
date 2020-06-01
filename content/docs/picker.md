@@ -1,3 +1,8 @@
+---
+title: Picker
+description: Learn how to use the Swach color picker.
+---
+
 # Picker
 
 <h3 class="font-hairline">
