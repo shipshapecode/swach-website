@@ -15,9 +15,9 @@
 
       <div class="block lg:hidden">
         <button
-          @click="toggleNavMenu(true)"
           aria-label="Open navigation menu"
           class="flex items-center px-3 py-2 text-gray-600 hover:text-gray-800 text-xl"
+          @click="toggleNavMenu(true)"
         >
           <Menu class="hamburger-menu" />
         </button>
@@ -27,21 +27,21 @@
         <div class="lg:flex lg:flex-grow lg:justify-end">
           <div class="flex lg:hidden justify-end m-4">
             <button
-              @click="toggleNavMenu(false)"
               aria-label="Close navigation menu"
               class="cursor-pointer"
+              @click="toggleNavMenu(false)"
             >
               <Close class="h-10 m-2 p-2 w-10" />
             </button>
           </div>
 
           <nuxt-link
-            @click.native="toggleNavMenu(false)"
             :class="{
               'nav-link-alt': scrolledDown || this.$route.name !== 'index'
             }"
             class="nav-link"
             to="/docs/"
+            @click.native="toggleNavMenu(false)"
           >
             Docs
           </nuxt-link>
