@@ -1,0 +1,4 @@
+# http://www.robotstxt.org
+Sitemap: https://swach.io/sitemap.xml
+User-agent: *
+Disallow:
