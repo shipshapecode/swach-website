@@ -1,8 +1,6 @@
 <template>
   <div class="flex flex-wrap justify-center w-full">
     <div class="flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full">
-      <SwachDockIcon class="top-bg absolute hidden z-0 lg:block" />
-
       <div class="max-w-6xl w-full z-10">
         <div class="flex flex-col flex-wrap items-center w-full lg:flex-row">
           <div class="w-full" data-aos="fade-up">
