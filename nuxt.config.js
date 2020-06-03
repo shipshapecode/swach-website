@@ -69,7 +69,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '@/plugins/aos.js', mode: 'client' }],
+  plugins: [{ src: '@/plugins/aos.js', mode: 'client' }, '~/plugins/jsonld'],
   /*
    ** Nuxt.js dev-modules
    */

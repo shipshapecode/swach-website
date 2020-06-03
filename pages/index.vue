@@ -247,6 +247,22 @@ export default {
     return {
       title: 'A robust color management tool for the modern age.'
     };
+  },
+
+  jsonld() {
+    return {
+      '@context': 'http://schema.org',
+      '@type': 'SoftwareApplication',
+      name: 'Swach',
+      // applicationCategory: '', TODO
+      operatingSystem: 'MacOS 10.14+, Windows 10, Ubuntu 18.04',
+      featureList:
+        'Color picker, contrast checker, color palettes, color harmonies',
+      publisher: {
+        '@type': 'Organization',
+        legalName: 'Ship Shape Consulting LLC'
+      }
+    };
   }
 };
 </script>
