@@ -254,10 +254,14 @@ export default {
       '@context': 'http://schema.org',
       '@type': 'SoftwareApplication',
       name: 'Swach',
-      // applicationCategory: '', TODO
-      operatingSystem: 'MacOS 10.14+, Windows 10, Ubuntu 18.04',
+      applicationCategory: 'https://schema.org/DesignApplication',
+      operatingSystem: 'MacOS 10.14+, Windows 10, Ubuntu 18.04+',
       featureList:
         'Color picker, contrast checker, color palettes, color harmonies',
+      offers: {
+        '@type': 'Offer',
+        price: '0'
+      },
       publisher: {
         '@type': 'Organization',
         legalName: 'Ship Shape Consulting LLC'
