@@ -220,95 +220,97 @@
           </p>
         </div>
 
-        <table class="bg-white max-w-3xl m-auto rounded-lg table-fixed w-full">
+        <table
+          class="bg-white max-w-3xl m-auto rounded-lg table-fixed text-xs w-full md:text-base"
+        >
           <thead>
             <tr>
-              <td class="p-4 w-1/4"></td>
-              <th class="p-4 w-1/4">Swach</th>
-              <th class="p-4 w-1/4">Sip</th>
-              <th class="p-4 w-1/4">Contrast</th>
+              <td class="p-2 w-1/4 md:p-4"></td>
+              <th class="p-2 w-1/4 md:p-4">Swach</th>
+              <th class="p-2 w-1/4 md:p-4">Sip</th>
+              <th class="p-2 w-1/4 md:p-4">Contrast</th>
             </tr>
           </thead>
           <tbody class="rounded">
             <tr class="rounded-tl">
-              <td class="font-black p-4">Contrast Checker</td>
+              <td class="font-black p-2 md:p-4">Contrast Checker</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center text-green-500">
+              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center text-green-500">
+              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
                 ✓
               </td>
             </tr>
             <tr>
-              <td class="font-black p-4">MacOS</td>
+              <td class="font-black p-2 md:p-4">MacOS</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center text-green-500">
+              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center text-green-500">
+              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
                 ✓
               </td>
             </tr>
             <tr>
-              <td class="font-black p-4">Color Palettes</td>
+              <td class="font-black p-2 md:p-4">Color Palettes</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center text-green-500">
+              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
             </tr>
             <tr>
-              <td class="font-black p-4">Windows</td>
+              <td class="font-black p-2 md:p-4">Windows</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center"></td>
-              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
             </tr>
             <tr>
-              <td class="font-black p-4">Linux</td>
+              <td class="font-black p-2 md:p-4">Linux</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center"></td>
-              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
             </tr>
             <tr>
-              <td class="font-black p-4">Color Harmonies</td>
+              <td class="font-black p-2 md:p-4">Color Harmonies</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 ✓
               </td>
-              <td class="font-extrabold p-4 text-center"></td>
-              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
+              <td class="font-extrabold p-2 text-center md:p-4"></td>
             </tr>
             <tr>
-              <td class="font-black p-4">Cost</td>
+              <td class="font-black p-2 md:p-4">Cost</td>
               <td
-                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
                 Free
               </td>
-              <td class="font-extrabold p-4 text-center">$10</td>
-              <td class="font-extrabold p-4 text-center">$6.99</td>
+              <td class="font-extrabold p-2 text-center md:p-4">$10</td>
+              <td class="font-extrabold p-2 text-center md:p-4">$6.99</td>
             </tr>
           </tbody>
         </table>
