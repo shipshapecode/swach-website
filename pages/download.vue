@@ -14,7 +14,7 @@
                   class="text-alt hover:text-color1"
                   href="https://download.swach.io/download/dmg/"
                 >
-                  MacOS
+                  macOS
                 </a>
               </li>
 

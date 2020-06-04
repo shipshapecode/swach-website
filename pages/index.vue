@@ -61,7 +61,7 @@
             </h2>
 
             <p class="m-4 text-lg">
-              Our color picker runs natively across MacOS, Windows, and Linux,
+              Our color picker runs natively across macOS, Windows, and Linux,
               allowing you to have the same seamless workflow, regardless of
               what machine you might be on.
             </p>
@@ -216,7 +216,7 @@
           <p>
             We built Swach to be a complete color tool for
             <span class="font-bold">all</span> designers on
-            <span class="font-bold">all</span> platforms. Not just MacOS.
+            <span class="font-bold">all</span> platforms. Not just macOS.
           </p>
         </div>
 
@@ -247,7 +247,7 @@
               </td>
             </tr>
             <tr>
-              <td class="font-black p-2 md:p-4">MacOS</td>
+              <td class="font-black p-2 md:p-4">macOS</td>
               <td
                 class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
               >
@@ -365,7 +365,7 @@ export default {
       '@type': 'SoftwareApplication',
       name: 'Swach',
       applicationCategory: 'https://schema.org/DesignApplication',
-      operatingSystem: 'MacOS 10.14+, Windows 10, Ubuntu 18.04+',
+      operatingSystem: 'macOS 10.14+, Windows 10, Ubuntu 18.04+',
       featureList:
         'Color picker, contrast checker, color palettes, color harmonies',
       offers: {
