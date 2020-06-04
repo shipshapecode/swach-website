@@ -206,6 +206,114 @@
         </div>
       </div>
     </div>
+    <div class="flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full">
+      <div class="max-w-6xl relative w-full" data-aos="fade-up">
+        <h2 class="p-4 text-4xl md:text-5.5xl text-center w-full">
+          Why Swach?
+        </h2>
+
+        <div class="mb-4 text-center w-full">
+          <p>
+            We built Swach to be a complete color tool for
+            <span class="font-bold">all</span> designers on
+            <span class="font-bold">all</span> platforms. Not just MacOS.
+          </p>
+        </div>
+
+        <table class="bg-white max-w-3xl m-auto rounded-lg table-fixed w-full">
+          <thead>
+            <tr>
+              <td class="p-4 w-1/4"></td>
+              <th class="p-4 w-1/4">Swach</th>
+              <th class="p-4 w-1/4">Sip</th>
+              <th class="p-4 w-1/4">Contrast</th>
+            </tr>
+          </thead>
+          <tbody class="rounded">
+            <tr class="rounded-tl">
+              <td class="font-black p-4">Contrast Checker</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center text-green-500">
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center text-green-500">
+                ✓
+              </td>
+            </tr>
+            <tr>
+              <td class="font-black p-4">MacOS</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center text-green-500">
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center text-green-500">
+                ✓
+              </td>
+            </tr>
+            <tr>
+              <td class="font-black p-4">Color Palettes</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center text-green-500">
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center"></td>
+            </tr>
+            <tr>
+              <td class="font-black p-4">Windows</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-4 text-center"></td>
+            </tr>
+            <tr>
+              <td class="font-black p-4">Linux</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-4 text-center"></td>
+            </tr>
+            <tr>
+              <td class="font-black p-4">Color Harmonies</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                ✓
+              </td>
+              <td class="font-extrabold p-4 text-center"></td>
+              <td class="font-extrabold p-4 text-center"></td>
+            </tr>
+            <tr>
+              <td class="font-black p-4">Cost</td>
+              <td
+                class="bg-green-100 font-extrabold p-4 text-center text-green-500"
+              >
+                Free
+              </td>
+              <td class="font-extrabold p-4 text-center">$10</td>
+              <td class="font-extrabold p-4 text-center">$6.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </template>
 

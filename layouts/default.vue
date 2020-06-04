@@ -10,17 +10,6 @@
       <nuxt />
     </main>
 
-    <a
-      href="https://www.producthunt.com/posts/swach?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-swach"
-      target="_blank"
-      ><img
-        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=186942&theme=dark"
-        alt="Swach - A robust color management tool for the modern age | Product Hunt Embed"
-        style="width: 250px; height: 54px;"
-        class="fixed bottom-0 m-4 right-0"
-        width="250px"
-        height="54px"
-    /></a>
     <Footer />
   </div>
 </template>
