@@ -22,7 +22,8 @@
 }
 
 @screen lg {
-  .nav-link {
+  .nav-link,
+  .nav-link-alt {
     @apply flex items-center mt-0 text-white;
   }
 
