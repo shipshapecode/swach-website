@@ -37,9 +37,20 @@
 
           <nuxt-link
             :class="{
+              'nav-link': !scrolledDown || this.$route.name === 'index',
               'nav-link-alt': scrolledDown || this.$route.name !== 'index'
             }"
-            class="nav-link"
+            to="/about/"
+            @click.native="toggleNavMenu(false)"
+          >
+            About
+          </nuxt-link>
+
+          <nuxt-link
+            :class="{
+              'nav-link': !scrolledDown || this.$route.name === 'index',
+              'nav-link-alt': scrolledDown || this.$route.name !== 'index'
+            }"
             to="/docs/"
             @click.native="toggleNavMenu(false)"
           >
