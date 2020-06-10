@@ -24,14 +24,16 @@
 @screen lg {
   .nav-link,
   .nav-link-alt {
-    @apply flex items-center mt-0 text-white;
+    @apply flex items-center mt-0;
   }
 
+  .nav-link,
   .nav-link:active,
   .nav-link:visited {
     @apply text-white;
   }
 
+  .nav-link-alt,
   .nav-link-alt:active,
   .nav-link-alt:visited {
     @apply text-color1;
