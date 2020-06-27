@@ -1,3 +1,13 @@
+## Swach 0.1.41
+
+##### June 26, 2020
+
+#### 🚀 Enhancement
+* Allow setting a new base color for color harmonies
+
+#### 🐛 Bug Fix
+* Add Snapcraft layout for scrot to fix color picker tool
+
 ## Swach 0.1.30 
 
 ##### June 13, 2020
