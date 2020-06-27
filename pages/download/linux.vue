@@ -83,7 +83,7 @@ import { generateMeta } from '~/utils/meta';
 
 export default {
   head() {
-    const title = 'Download';
+    const title = 'Download for Linux';
     const description = 'Download Swach for free for Linux via Snapcraft.';
     const url = 'https://swach.io/download/linux/';
     return generateMeta(title, description, url);
