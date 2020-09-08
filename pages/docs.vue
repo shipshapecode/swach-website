@@ -4,15 +4,11 @@
       <aside class="hidden mr-10 w-64 lg:block">
         <ul>
           <li class="mb-2">
-            <nuxt-link to="/docs/">
-              Getting Started
-            </nuxt-link>
+            <nuxt-link to="/docs/"> Getting Started </nuxt-link>
           </li>
 
           <li class="mb-2">
-            <nuxt-link to="/docs/picker/">
-              Picker
-            </nuxt-link>
+            <nuxt-link to="/docs/picker/"> Picker </nuxt-link>
           </li>
 
           <li class="mb-2">
@@ -22,9 +18,7 @@
           </li>
 
           <li class="mb-2">
-            <nuxt-link to="/docs/shortcuts/">
-              Shortcuts
-            </nuxt-link>
+            <nuxt-link to="/docs/shortcuts/"> Shortcuts </nuxt-link>
           </li>
         </ul>
       </aside>

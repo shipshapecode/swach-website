@@ -4,9 +4,7 @@
       <div class="max-w-6xl w-full z-10">
         <div class="flex flex-col flex-wrap items-center w-full lg:flex-row">
           <div class="w-full" data-aos="fade-up">
-            <h1 class="pb-4 pt-4 text-4xl md:text-5.5xl">
-              Swach for Linux
-            </h1>
+            <h1 class="pb-4 pt-4 text-4xl md:text-5.5xl">Swach for Linux</h1>
 
             <p class="max-w-4xl pb-4 pt-4">
               Here you can find various options for installing Swach on Linux.
@@ -15,9 +13,7 @@
               distribution supports Snapcraft, you should be able to use Swach.
             </p>
 
-            <h2 class="pb-4 pt-4 text-3xl">
-              Install on Ubuntu
-            </h2>
+            <h2 class="pb-4 pt-4 text-3xl">Install on Ubuntu</h2>
 
             <p class="max-w-4xl pb-4 pt-4">
               Go to
@@ -28,13 +24,9 @@
               and search for Swach.
             </p>
 
-            <h2 class="pb-4 pt-4 text-3xl">
-              Install via command line
-            </h2>
+            <h2 class="pb-4 pt-4 text-3xl">Install via command line</h2>
 
-            <h3 class="pb-4 pt-4 text-2xl">
-              Snap
-            </h3>
+            <h3 class="pb-4 pt-4 text-2xl">Snap</h3>
 
             <div class="max-w-4xl pb-4 pt-4">
               <div>
@@ -58,9 +50,7 @@
               </p>
             </div>
 
-            <h3 class="pb-4 pt-4 text-2xl">
-              Debian/Ubuntu
-            </h3>
+            <h3 class="pb-4 pt-4 text-2xl">Debian/Ubuntu</h3>
 
             <p class="max-w-4xl pb-4 pt-4">
               You can manually download the latest debian build

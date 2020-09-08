@@ -56,9 +56,7 @@
           <div class="w-full lg:w-1/2">
             <ColorPickerIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="p-4 text-3xl md:text-5xl">
-              Color Picker
-            </h2>
+            <h2 class="p-4 text-3xl md:text-5xl">Color Picker</h2>
 
             <p class="m-4 text-lg">
               Our color picker runs natively across macOS, Windows, and Linux,
@@ -83,9 +81,7 @@
           <div class="w-full lg:w-1/2">
             <PalettesIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="p-4 text-3xl md:text-5xl">
-              Palettes
-            </h2>
+            <h2 class="p-4 text-3xl md:text-5xl">Palettes</h2>
 
             <p class="m-4 text-lg">
               Palettes are the main color organization method in Swach. You
@@ -141,9 +137,7 @@
           <div class="w-full lg:w-1/2 z-10">
             <ColorHarmoniesIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="p-4 text-3xl md:text-5xl">
-              Color Harmonies
-            </h2>
+            <h2 class="p-4 text-3xl md:text-5xl">Color Harmonies</h2>
 
             <p class="m-4 text-lg">
               Sometimes you may have one base color you particularly love, but
@@ -173,9 +167,7 @@
           <div class="w-full lg:w-1/2 z-10">
             <ContrastCheckerIcon class="inline-block ml-4 h-16 w-16" />
 
-            <h2 class="p-4 text-3xl md:text-5xl">
-              Contrast Checker
-            </h2>
+            <h2 class="p-4 text-3xl md:text-5xl">Contrast Checker</h2>
 
             <p class="m-4 text-lg">
               Ensure your color combinations are accessible and adhere to the
