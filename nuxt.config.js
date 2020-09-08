@@ -9,6 +9,8 @@ const twitterUsername = '@shipshapecode';
 
 export default {
   mode: 'universal',
+  // TODO
+  // target: 'static',
   /*
    ** Headers of the page
    */

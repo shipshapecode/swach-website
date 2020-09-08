@@ -4,9 +4,7 @@
       <div class="max-w-6xl w-full z-10">
         <div class="flex flex-col flex-wrap items-center w-full lg:flex-row">
           <div class="w-full" data-aos="fade-up">
-            <h1 class="pb-4 pt-4 text-4xl md:text-5.5xl">
-              About Swach
-            </h1>
+            <h1 class="pb-4 pt-4 text-4xl md:text-5.5xl">About Swach</h1>
 
             <h2 class="pb-4 pt-4 text-2xl">What is Swach?</h2>
 
