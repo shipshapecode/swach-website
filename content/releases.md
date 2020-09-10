@@ -1,3 +1,28 @@
+## Swach 0.2.5
+
+##### September 10, 2020
+
+#### 🐛 Bug Fix
+* Fix dock icon always showing on MacOS
+
+## Swach 0.2.4
+
+##### September 9, 2020
+
+* Build errors required a new release, no new changes on this version.
+
+## Swach 0.2.3
+
+##### September 9, 2020
+
+* Build errors required a new release, no new changes on this version.
+
+## v0.2.2 (2020-09-09)
+
+#### 🚀 Enhancement
+* Set theme earlier, various style and performance tweaks
+* Support TouchBar on Color Harmonies page
+
 ## Swach 0.2.1
 
 ##### September 4, 2020
