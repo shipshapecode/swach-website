@@ -1,3 +1,16 @@
+## Swach 0.2.13
+
+##### September 16, 2020
+
+#### 🐛 Bug Fix
+* Fix Windows file url issues
+
+## Swach 0.2.6-0.2.12
+
+##### September 15, 2020
+
+* Build issues required multiple releases
+
 ## Swach 0.2.5
 
 ##### September 10, 2020
