@@ -1,6 +1,8 @@
 <template>
-  <!-- eslint-disable-next-line -->
-  <div class="content" v-html="doc.html" />
+  <div>
+    <!-- eslint-disable-next-line -->
+    <div class="content" v-html="doc.html" />
+  </div>
 </template>
 
 <style>

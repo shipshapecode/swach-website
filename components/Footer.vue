@@ -36,7 +36,11 @@
             to="/"
             class="font-bold font-gt-walsheim inline-flex items-center text-white text-2xl"
           >
-            <SwachLogoLine class="inline h-10 mr-4 w-10" /> Swach
+            <inline-svg
+              class="inline h-10 mr-4 w-10"
+              src="/svgs/swach-logo-line.svg"
+            />
+            Swach
           </nuxt-link>
 
           <p class="text-color2 text-sm">
@@ -51,13 +55,3 @@
     </nav>
   </div>
 </template>
-
-<script>
-import SwachLogoLine from '~/assets/svgs/swach-logo-line.svg?inline';
-
-export default {
-  components: {
-    SwachLogoLine
-  }
-};
-</script>

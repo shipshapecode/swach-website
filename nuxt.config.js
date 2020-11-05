@@ -9,8 +9,7 @@ const twitterUsername = '@shipshapecode';
 
 export default {
   mode: 'universal',
-  // TODO
-  // target: 'static',
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -71,7 +70,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '@/plugins/aos.js', mode: 'client' }, '~/plugins/jsonld'],
+  plugins: [
+    { src: '@/plugins/aos.js', mode: 'client' }, 
+    '~/plugins/jsonld',
+    { src: '~/plugins/vue-inline-svg', mode: 'client' }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -88,7 +91,6 @@ export default {
         id: 'UA-84561982-2'
       }
     ],
-    'nuxt-svg',
     '@nuxtjs/sitemap'
   ],
   /*
