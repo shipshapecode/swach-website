@@ -10,7 +10,7 @@
         to="/"
         class="font-bold font-gt-walsheim inline-flex items-center text-gray-800 text-2xl"
       >
-        <SwachLogo class="inline h-10 mr-4 w-10" /> Swach
+        <inline-svg class="inline h-10 mr-4 w-10" src="/svgs/swach-dock-icon.svg" /> Swach
       </nuxt-link>
 
       <div class="block lg:hidden">
@@ -19,7 +19,7 @@
           class="flex items-center px-3 py-2 text-gray-600 hover:text-gray-800 text-xl"
           @click="toggleNavMenu(true)"
         >
-          <Menu class="hamburger-menu" />
+          <inline-svg class="hamburger-menu" src="/svgs/menu.svg" />
         </button>
       </div>
 
@@ -31,7 +31,7 @@
               class="cursor-pointer"
               @click="toggleNavMenu(false)"
             >
-              <Close class="h-10 m-2 p-2 w-10" />
+              <inline-svg class="h-10 m-2 p-2 w-10" src="/svgs/close.svg" />
             </button>
           </div>
 
@@ -78,16 +78,7 @@
 </template>
 
 <script>
-import Close from '~/assets/svgs/close.svg?inline';
-import Menu from '~/assets/svgs/menu.svg?inline';
-import SwachLogo from '~/assets/svgs/swach-dock-icon.svg?inline';
-
 export default {
-  components: {
-    Close,
-    Menu,
-    SwachLogo
-  },
   data() {
     return {
       scrolledDown: false
