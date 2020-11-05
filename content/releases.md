@@ -1,3 +1,43 @@
+## Swach 0.3.0
+
+##### November 5, 2020
+
+#### 💥 Breaking Change
+* Remove data migration scripts
+
+## Swach 0.2.18
+
+##### October 13, 2020
+
+#### 🏠 Internal
+* Use setLoginItemSettings to set openAtLogin
+
+## Swach 0.2.17
+
+##### October 9, 2020
+
+#### 🐛 Bug Fix
+* Fix audio path in Windows
+
+## Swach 0.2.16
+
+##### October 8, 2020
+
+#### 🐛 Bug Fix
+* Fix sentry and font issues
+
+## Swach 0.2.15
+
+##### October 4, 2020
+
+* Build issues required multiple releases
+
+## Swach 0.2.14
+
+##### October 4, 2020
+
+* Build issues required multiple releases
+
 ## Swach 0.2.13
 
 ##### September 16, 2020
