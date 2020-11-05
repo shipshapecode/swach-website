@@ -2,10 +2,6 @@
   <div>
     <!-- eslint-disable-next-line -->
     <div class="content" v-html="doc.html" />
-    <a href="https://www.buymeacoffee.com/shipshape"
-      ><img
-        src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=shipshape&button_colour=0b0039&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00"
-    /></a>
   </div>
 </template>
 

@@ -10,7 +10,11 @@
         to="/"
         class="font-bold font-gt-walsheim inline-flex items-center text-gray-800 text-2xl"
       >
-        <inline-svg class="inline h-10 mr-4 w-10" src="/svgs/swach-dock-icon.svg" /> Swach
+        <inline-svg
+          class="inline h-10 mr-4 w-10"
+          src="/svgs/swach-dock-icon.svg"
+        />
+        Swach
       </nuxt-link>
 
       <div class="block lg:hidden">

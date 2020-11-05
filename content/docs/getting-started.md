@@ -16,18 +16,23 @@ Swach was created by [Ship Shape](https://shipshape.io/) and is available for ma
 - Ubuntu 18.04 or newer
 - Other various linux distros (coming soon)
 
-## Download Swach
+## Swach Pricing / Donations
 
 Swach is 100% free, no strings attached. If you enjoy using it, we would appreciate any donations
-to its continued development! You can sponsor us [on GitHub](https://github.com/sponsors/rwwagner90).
+to its continued development!
+
+<a href="https://www.buymeacoffee.com/shipshape" class="block mb-4">
+  <img
+    src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=shipshape&button_colour=0b0039&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00"
+  />
+</a>
 
 ## Issues / Feature Requests
 
-We hope Swach is intuitive to use, and does not have bugs, but if you have issues or questions, 
-or feature requests please email us at 
+We hope Swach is intuitive to use, and does not have bugs, but if you have issues, questions,
+or feature requests please email us at
 <a class="text-alt hover:text-color1" href="mailto:swach@shipshape.io">swach@shipshape.io</a>.
 
 <footer class="flex justify-end lg:hidden">
   <a class="text-alt hover:text-color1" href="/docs/picker/">Picker →</a>
 </footer>
-

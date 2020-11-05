@@ -3,7 +3,10 @@
     <div
       class="bg-lightest-blue flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
     >
-      <inline-svg class="top-bg absolute hidden z-0 lg:block" src="/svgs/swach-dock-icon.svg" />
+      <inline-svg
+        class="top-bg absolute hidden z-0 lg:block"
+        src="/svgs/swach-dock-icon.svg"
+      />
 
       <div class="max-w-6xl w-full z-10">
         <div class="flex flex-col flex-wrap items-center w-full lg:flex-row">
@@ -54,7 +57,10 @@
           </div>
 
           <div class="w-full lg:w-1/2">
-            <inline-svg class="inline-block ml-4 h-16 w-16" src="/svgs/color-picker-icon.svg" />
+            <inline-svg
+              class="inline-block ml-4 h-16 w-16"
+              src="/svgs/color-picker-icon.svg"
+            />
 
             <h2 class="p-4 text-3xl md:text-5xl">Color Picker</h2>
 
@@ -79,7 +85,10 @@
           class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
         >
           <div class="w-full lg:w-1/2">
-            <inline-svg class="inline-block ml-4 h-16 w-16" src="/svgs/palettes-icon.svg" />
+            <inline-svg
+              class="inline-block ml-4 h-16 w-16"
+              src="/svgs/palettes-icon.svg"
+            />
 
             <h2 class="p-4 text-3xl md:text-5xl">Palettes</h2>
 
@@ -135,7 +144,10 @@
           </div>
 
           <div class="w-full lg:w-1/2 z-10">
-            <inline-svg class="inline-block ml-4 h-16 w-16" src="/svgs/color-harmonies-icon.svg" />
+            <inline-svg
+              class="inline-block ml-4 h-16 w-16"
+              src="/svgs/color-harmonies-icon.svg"
+            />
 
             <h2 class="p-4 text-3xl md:text-5xl">Color Harmonies</h2>
 
@@ -165,7 +177,10 @@
           class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row z-10"
         >
           <div class="w-full lg:w-1/2 z-10">
-            <inline-svg class="inline-block ml-4 h-16 w-16" src="/svgs/contrast-checker-icon.svg" />
+            <inline-svg
+              class="inline-block ml-4 h-16 w-16"
+              src="/svgs/contrast-checker-icon.svg"
+            />
 
             <h2 class="p-4 text-3xl md:text-5xl">Contrast Checker</h2>
 
@@ -331,7 +346,6 @@
 
 <script>
 export default {
-
   head() {
     return {
       title: 'A robust color management tool for the modern age.'
