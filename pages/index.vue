@@ -213,114 +213,174 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full">
+    <div class="flex flex-wrap justify-center pb-16 pt-16 w-full">
       <div class="max-w-6xl relative w-full" data-aos="fade-up">
-        <h2 class="p-4 text-4xl md:text-5.5xl text-center w-full">
-          Why Swach?
-        </h2>
+        <div class="px-8">
+          <h2 class="p-4 text-4xl md:text-5.5xl text-center w-full">
+            Why Swach?
+          </h2>
 
-        <div class="mb-4 text-center w-full">
-          <p>
-            We built Swach to be a complete color tool for
-            <span class="font-bold">all</span> designers on
-            <span class="font-bold">all</span> platforms. Not just macOS.
-          </p>
+          <div class="flex justify-center mb-20 text-center w-full">
+            <p class="max-w-md">
+              We built Swach to be a complete color tool for
+              <span class="font-bold">all designers</span> on
+              <span class="font-bold">all platforms</span>. Not just macOS.
+            </p>
+          </div>
         </div>
 
-        <table
-          class="bg-white max-w-3xl m-auto rounded-lg table-fixed text-xs w-full md:text-base"
-        >
-          <thead>
-            <tr>
-              <td class="p-2 w-1/4 md:p-4"></td>
-              <th class="p-2 w-1/4 md:p-4">Swach</th>
-              <th class="p-2 w-1/4 md:p-4">Sip</th>
-              <th class="p-2 w-1/4 md:p-4">Contrast</th>
-            </tr>
-          </thead>
-          <tbody class="rounded">
-            <tr class="rounded-tl">
-              <td class="font-black p-2 md:p-4">Contrast Checker</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
-                ✓
-              </td>
-            </tr>
-            <tr>
-              <td class="font-black p-2 md:p-4">macOS</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
-                ✓
-              </td>
-            </tr>
-            <tr>
-              <td class="font-black p-2 md:p-4">Color Palettes</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center text-green-500 md:p-4">
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-            </tr>
-            <tr>
-              <td class="font-black p-2 md:p-4">Windows</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-            </tr>
-            <tr>
-              <td class="font-black p-2 md:p-4">Linux</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-            </tr>
-            <tr>
-              <td class="font-black p-2 md:p-4">Color Harmonies</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                ✓
-              </td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-              <td class="font-extrabold p-2 text-center md:p-4"></td>
-            </tr>
-            <tr>
-              <td class="font-black p-2 md:p-4">Cost</td>
-              <td
-                class="bg-green-100 font-extrabold p-2 text-center text-green-500 md:p-4"
-              >
-                Free
-              </td>
-              <td class="font-extrabold p-2 text-center md:p-4">$10</td>
-              <td class="font-extrabold p-2 text-center md:p-4">$6.99</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="relative">
+          <div class="bg-alt circle lg:h-72 lg:w-72"></div>
+
+          <table
+            class="bg-white font-gt-walsheim font-medium m-auto relative table-fixed text-xs w-full z-10 md:text-base lg:rounded-3xl"
+          >
+            <thead>
+              <tr>
+                <td class="block p-2 md:p-4 md:table-cell md:w-1/4"></td>
+                <th class="bg-peach p-2 w-1/4 md:p-4 text-xl">Swach</th>
+                <th class="p-2 w-1/4 md:p-4 text-xl">Sip</th>
+                <th class="p-2 w-1/4 md:p-4 text-xl">Contrast</th>
+              </tr>
+            </thead>
+            <tbody class="lg:rounded">
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">Contrast Checker</td>
+                <td class="bg-peach p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">macOS</td>
+                <td class="bg-peach p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">Color Palettes</td>
+                <td class="bg-peach p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4"></td>
+              </tr>
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">Windows</td>
+                <td class="bg-peach p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4"></td>
+                <td class="p-2 text-center md:p-4"></td>
+              </tr>
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">Linux</td>
+                <td class="bg-peach p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4"></td>
+                <td class="p-2 text-center md:p-4"></td>
+              </tr>
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">Color Harmonies</td>
+                <td class="bg-peach p-2 text-center md:p-4">
+                  <div class="inline-block">
+                    <div
+                      class="bg-swach-blue flex h-6 items-center justify-center rounded-full text-white w-6"
+                    >
+                      ✓
+                    </div>
+                  </div>
+                </td>
+                <td class="p-2 text-center md:p-4"></td>
+                <td class="p-2 text-center md:p-4"></td>
+              </tr>
+              <tr class="border-gray-100 border-t">
+                <td class="font-black p-4 md:px-8 md:py-4">Cost</td>
+                <td class="bg-peach p-2 text-center uppercase md:p-4">Free</td>
+                <td class="p-2 text-center md:p-4">$10</td>
+                <td class="p-2 text-center md:p-4">$6.99</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div
+            class="bg-swach-blue -mt-24 square rotate-45 transform lg:-mt-56 lg:h-72 lg:w-72"
+          ></div>
+        </div>
       </div>
     </div>
   </div>

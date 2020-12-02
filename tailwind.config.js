@@ -26,7 +26,8 @@ module.exports = {
         'lightest-blue': '#edf7ff',
         'light-blue': '#eef7fe',
         mustard: '#ffaf14',
-        peach: '#fff9f8'
+        peach: '#fff9f8',
+        'swach-blue': '#0ae8e6'
       },
       fontFamily: {
         'gt-walsheim':
