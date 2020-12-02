@@ -6,7 +6,12 @@
   >
     <NavMenu />
 
-    <main class="min-h-screen overflow-hidden w-screen">
+    <main
+      :class="{
+        'bg-peach': this.$route.name === 'about'
+      }"
+      class="min-h-screen overflow-hidden w-screen"
+    >
       <nuxt />
     </main>
 

@@ -233,7 +233,7 @@
           <div class="bg-alt circle lg:h-72 lg:w-72"></div>
 
           <table
-            class="bg-white font-gt-walsheim font-medium m-auto relative table-fixed text-xs w-full z-10 md:text-base lg:rounded-3xl"
+            class="bg-white font-gt-walsheim font-medium m-auto relative table-fixed text-sm w-full z-10 md:text-base lg:rounded-3xl"
           >
             <thead>
               <tr>

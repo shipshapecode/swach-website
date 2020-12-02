@@ -1,7 +1,8 @@
 <template>
   <nav
     :class="{
-      'bg-white': scrolledDown
+      'bg-white': scrolledDown,
+      'bg-peach': this.$route.name === 'about'
     }"
     class="top-nav flex h-20 items-center justify-center p-6 pb-12 pt-12 sticky top-0 w-full z-50"
   >
