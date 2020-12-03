@@ -9,11 +9,11 @@
 }
 
 .nav-link {
-  @apply block font-bold p-2 mr-2 text-base text-gray-600;
+  @apply block font-bold p-2 mr-4 text-base text-gray-600;
 }
 
 .nav-link-alt {
-  @apply block font-bold p-2 mr-2 text-base text-color1;
+  @apply block font-bold p-2 mr-4 text-base text-color1;
 }
 
 .nav-link:active,
@@ -46,4 +46,13 @@
 
 .nav-link-alt:hover {
   @apply text-alt;
+}
+
+.nav-link.nuxt-link-active::after,
+.nav-link-alt.nuxt-link-active::after {
+  @apply bg-alt h-2 inline-block relative rounded-full w-2;
+
+  content: '\A';
+  top: 20px;
+  right: 50%;
 }

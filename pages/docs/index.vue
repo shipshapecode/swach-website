@@ -1,11 +1,19 @@
 <template>
   <div>
     <!-- eslint-disable-next-line -->
-    <div class="content" v-html="doc.html" />
+    <div class="content max-w-2xl" v-html="doc.html" />
   </div>
 </template>
 
 <style>
+.content a {
+  @apply text-alt;
+}
+
+.content a:hover {
+  @apply text-color1;
+}
+
 .content h1 {
   font-size: 2.5em;
   line-height: 1.2;
@@ -48,7 +56,11 @@
 .content ul {
   font-size: 1em;
   line-height: 1.5;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
+}
+
+.content p {
+  margin-bottom: 3em;
 }
 
 .content b,
@@ -83,7 +95,7 @@
 
 .content ul {
   list-style-type: disc;
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 </style>
 <script>
