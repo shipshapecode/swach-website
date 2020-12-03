@@ -35,6 +35,8 @@ left of Swach's menubar or open it with the [keyboard shortcut](/docs/shortcuts)
 * **AA** – This is the sweet spot for text sizes below ~18pt. This is a score of at least **4.5**.
 * **AAA** – This is enhanced contrast with a score of at least **7.0**. Think longer form articles that will be read for a significant period of time.
 
+---
+
 <footer class="flex justify-between lg:hidden">
   <a class="text-alt hover:text-color1" href="/docs/picker/">← Picker</a>
   <a class="text-alt hover:text-color1" href="/docs/shortcuts/">Shortcuts →</a>

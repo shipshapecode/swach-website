@@ -19,6 +19,8 @@ description: Learn Swach keyboard shortcuts for faster navigation.
 * Undo Action `Ctrl` `Z`
 * Redo Action `⇧` `Ctrl` `Z`
 
+---
+
 <footer class="flex justify-between lg:hidden">
   <a class="text-alt hover:text-color1" href="/docs/contrast-checker/">← Contrast Checker</a>
 </footer>
