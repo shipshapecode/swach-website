@@ -66,12 +66,12 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['aos/dist/aos.css'],
+  css: ['aos/dist/aos.css', '@/assets/css/content.css'],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '@/plugins/aos.js', mode: 'client' }, 
+    { src: '@/plugins/aos.js', mode: 'client' },
     '~/plugins/jsonld',
     { src: '~/plugins/vue-inline-svg', mode: 'client' }
   ],
