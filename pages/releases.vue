@@ -24,7 +24,8 @@ export default {
   },
   head() {
     const title = 'Releases';
-    const description = 'Version history and release notes for Swach.';
+    const description =
+      'Version history and release notes for all versions of Swach.';
     const url = 'https://swach.io/releases/';
     return generateMeta(title, description, url);
   }

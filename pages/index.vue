@@ -386,30 +386,15 @@
   </div>
 </template>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.modern-underline {
-  border-bottom: 5px solid #36cad2;
-}
-
-.top-bg {
-  height: 1030px;
-  right: -172px;
-  top: -294px;
-  width: 1030px;
-}
-</style>
-
 <script>
+import { generateMeta } from '~/utils/meta';
+
 export default {
   head() {
-    return {
-      title: 'A robust color management tool for the modern age.'
-    };
+    const title = 'A robust color management tool for the modern age.';
+    const description = 'A robust color management tool for the modern age.';
+    const url = 'https://swach.io/';
+    return generateMeta(title, description, url);
   },
 
   jsonld() {
@@ -433,3 +418,21 @@ export default {
   }
 };
 </script>
+
+<style>
+/* Sample `apply` at-rules with Tailwind CSS
+.container {
+  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+}
+*/
+.modern-underline {
+  border-bottom: 5px solid #36cad2;
+}
+
+.top-bg {
+  height: 1030px;
+  right: -172px;
+  top: -294px;
+  width: 1030px;
+}
+</style>

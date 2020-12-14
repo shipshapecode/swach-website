@@ -21,7 +21,8 @@ export default {
   },
   head() {
     const title = 'Getting Started - Docs';
-    const description = 'The documentation for Swach.';
+    const description =
+      "The documentation for Swach. Learn about Swach's features and shortcuts.";
     const url = 'https://swach.io/docs/';
     return generateMeta(title, description, url);
   }
