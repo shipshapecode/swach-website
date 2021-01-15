@@ -1,3 +1,91 @@
+## Swach 0.5.0 (2021-01-15)
+
+##### January 15, 2021
+
+#### 💥 Breaking Change
+* Make color to palette relationship a hasOne
+
+#### 🚀 Enhancement
+* Ensure colors are deleted when they no longer belong to palettes
+* Update welcome page styling
+* Add download success / error flash message
+
+#### 🐛 Bug Fix
+* Fix duplicate application route
+* Fix duplicate palette functionality
+* Make updating base color values update all colors
+
+#### 🏠 Internal
+* Yarn upgrade
+* Convert context menu to glimmer
+* ember-cli 3.24
+* GitHub actions workflow refactor
+* Fix electron tests
+* Start converting components to TS
+* Build with embroider, remove power select
+* Fix settings TS issues
+* Use ember-orbit beta
+
+---
+
+## Swach 0.4.17 (2020-12-14)
+
+##### December 12, 2020
+
+#### 🐛 Bug Fix
+* Cleanup edited color data
+
+#### 🏠 Internal
+* Use tailwind for transitions
+
+---
+
+## Swach 0.4.8 to 0.4.16
+
+##### December 8, 2020
+
+* Build errors required a new release, no new changes on these versions.
+
+---
+
+## Swach 0.4.7
+
+##### December 8, 2020
+
+#### 🚀 Enhancement
+* Manually trigger context menu instead of using mixins
+
+#### 🏠 Internal
+* Build snaps with electron-forge
+* Update eslint-plugin-ember
+* Start splitting up workflows
+* Tailwind v2
+
+---
+
+## Swach 0.4.1 to 0.4.6
+
+##### December 4, 2020
+
+* Build errors required a new release, no new changes on these versions.
+
+---
+
+
+## Swach 0.4.0
+
+##### December 4, 2020
+
+#### 🚀 Enhancement
+* Update settings page
+* Add cut/copy/paste support to inputs
+
+#### 🏠 Internal
+* Add types for models
+* Start converting to TypeScript
+
+---
+
 ## Swach 0.3.0
 
 ##### November 5, 2020
