@@ -1,5 +1,7 @@
 # swach-website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7092f21-9b21-4394-ad68-bcd31ac814ee/deploy-status)](https://app.netlify.com/sites/swach-io/deploys)
+
 > The website for Swach
 
 ## Build Setup
