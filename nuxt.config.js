@@ -8,7 +8,6 @@ const imgSrc = 'https://swach.io/img/logo.png';
 const twitterUsername = '@shipshapecode';
 
 export default {
-  mode: 'universal',
   target: 'static',
   /*
    ** Headers of the page
@@ -72,8 +71,9 @@ export default {
    */
   plugins: [
     { src: '@/plugins/aos.js', mode: 'client' },
+    '~plugins/filters.js',
     '~/plugins/jsonld',
-    { src: '~/plugins/vue-inline-svg', mode: 'client' }
+    { src: '~/plugins/vue-inline-svg' }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -91,12 +91,48 @@ export default {
         id: 'UA-84561982-2'
       }
     ],
-    '@nuxtjs/sitemap'
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
+    '@xdn/nuxt/module'
   ],
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: [
+    [
+      'nuxt-font-loader-strategy',
+      {
+        fonts: [
+          {
+            fileExtensions: ['woff2', 'woff'],
+            fontFamily: 'Ginto Normal Trial',
+            fontFaces: [
+              {
+                preload: true,
+                localSrc: ['Ginto Normal Trial'],
+                src: '@/assets/fonts/GintoNormalTrial-Regular',
+                fontWeight: 'normal',
+                fontStyle: 'normal'
+              }
+            ]
+          },
+          {
+            fileExtensions: ['woff2', 'woff'],
+            fontFamily: 'GT Walsheim',
+            fontFaces: [
+              {
+                preload: true,
+                localSrc: ['GT Walsheim'],
+                src: '@/assets/fonts/GTWalsheimMedium',
+                fontWeight: 500,
+                fontStyle: 'normal'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ],
   generate: {
     routes: dynamicMarkdownRoutes()
   },

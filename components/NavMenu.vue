@@ -9,7 +9,7 @@
     <div class="flex font-medium items-center justify-between max-w-6xl w-full">
       <nuxt-link
         to="/"
-        class="font-bold font-gt-walsheim inline-flex items-center text-gray-800 text-2xl"
+        class="font-gt-walsheim inline-flex items-center text-gray-800 text-2xl"
       >
         <inline-svg
           class="inline h-10 mr-4 w-10"
