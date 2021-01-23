@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap justify-center w-full">
     <div
-      class="bg-lightest-blue flex flex-wrap justify-center pb-16 pl-8 pr-8 pt-16 w-full"
+      class="bg-lightest-blue flex flex-wrap justify-center px-8 py-16 w-full"
     >
       <inline-svg
         class="top-bg absolute hidden z-0 lg:block"
