@@ -24,7 +24,7 @@ left of Swach's menubar or open it with the [keyboard shortcut](/docs/shortcuts)
   <img
     alt="A Demo of the Swach menu showing the option to open the contrast checker."
     class="h-auto mb-16 w-full"
-    src="/img/docs/launch-contrast-checker.png"
+    src="/img/docs/launch-contrast-checker.png?webp"
   />
 </div>
 

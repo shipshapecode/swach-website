@@ -33,7 +33,7 @@
             <img
               alt="The Swach app showing colors and palettes."
               class="block h-auto max-w-md m-auto p-4 w-full lg:ml-auto lg:mr-0"
-              src="/img/swach.png"
+              src="/img/swach.png?webp"
               data-aos="fade-up"
             />
           </div>
@@ -52,7 +52,7 @@
             <img
               alt="A Demo of the color picker choosing a color."
               class="block h-auto max-h-full max-w-md m-auto p-4 w-full lg:m-0"
-              src="/img/color-picker.png"
+              src="/img/color-picker.png?webp"
             />
           </div>
 

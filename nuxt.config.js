@@ -4,7 +4,7 @@ import glob from 'glob';
 const markdownPaths = ['docs'];
 const description = 'A robust color management tool for the modern age.';
 const title = 'Swach';
-const imgSrc = 'https://swach.io/img/logo.png';
+const imgSrc = 'https://swach.io/img/logo.png?webp';
 const twitterUsername = '@shipshapecode';
 
 export default {
@@ -79,6 +79,7 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
+    '@aceforth/nuxt-optimized-images',
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
@@ -136,6 +137,9 @@ export default {
   ],
   generate: {
     routes: dynamicMarkdownRoutes()
+  },
+  optimizedImages: {
+    optimizeImages: true
   },
   /*
    ** Build configuration
