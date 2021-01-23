@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@nuxt/core": "^2.14.9",
-    "nuxt-font-loader-strategy": "^1.1.2"
+    "nuxt-font-loader-strategy": "^1.1.2",
+    "nuxt-lazy-load": "^1.2.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

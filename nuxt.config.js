@@ -130,7 +130,8 @@ export default {
             ]
           }
         ]
-      }
+      },
+      'nuxt-lazy-load'
     ]
   ],
   generate: {
