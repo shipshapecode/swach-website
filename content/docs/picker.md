@@ -10,7 +10,7 @@ The picker is a familiar eyedropper style tool to quickly pick a color from anyw
 <img
   alt="A screenshot showing how to launch the color picker."
   class="h-auto mb-16 w-full"
-  :src="require('~/assets/img/docs/picker/launch-picker.png?webp')
+  src="/img/docs/picker/launch-picker.png"
 />
 
 #### You can access the picker in different ways:
