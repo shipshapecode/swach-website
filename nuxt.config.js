@@ -4,7 +4,7 @@ import glob from 'glob';
 const markdownPaths = ['docs'];
 const description = 'A robust color management tool for the modern age.';
 const title = 'Swach';
-const imgSrc = 'https://swach.io/img/logo.png?webp';
+const imgSrc = 'https://swach.io/img/logo.png';
 const twitterUsername = '@shipshapecode';
 
 export default {
