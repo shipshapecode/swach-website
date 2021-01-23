@@ -23,14 +23,13 @@
 
 <script>
 export default {
-  data() {
-    const { query } = this.$route;
+  asyncData({ query }) {
     const { colors, name } = query;
-
     return {
-      colors: colors ? colors.split(',') : [],
+      colors: colors ? decodeURIComponent(colors).split(',') : [],
       name: name ?? 'Palette'
     };
-  }
+  },
+  watchQuery: ['colors', 'name']
 };
 </script>

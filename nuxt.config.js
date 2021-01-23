@@ -8,7 +8,6 @@ const imgSrc = 'https://swach.io/img/logo.png';
 const twitterUsername = '@shipshapecode';
 
 export default {
-  mode: 'universal',
   target: 'static',
   /*
    ** Headers of the page
@@ -92,12 +91,14 @@ export default {
         id: 'UA-84561982-2'
       }
     ],
-    '@nuxtjs/sitemap'
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
+    '@xdn/nuxt/module'
   ],
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: [],
   generate: {
     routes: dynamicMarkdownRoutes()
   },
