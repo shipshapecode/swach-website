@@ -34,22 +34,6 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 
-@font-face {
-  font-family: 'Ginto Normal Trial';
-  src: url('/fonts/GintoNormalTrial-Regular.woff2') format('woff2'),
-    url('/fonts/GintoNormalTrial-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'GT Walsheim';
-  src: url('/fonts/GTWalsheimMedium.woff2') format('woff2'),
-    url('/fonts/GTWalsheimMedium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
 html {
   background-color: #fefefe;
   box-sizing: border-box;

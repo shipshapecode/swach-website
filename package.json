@@ -16,15 +16,16 @@
     "xdn:deploy": "xdn deploy"
   },
   "dependencies": {
-    "@nuxt/core": "^2.14.9"
+    "@nuxt/core": "^2.14.9",
+    "nuxt-font-loader-strategy": "^1.1.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.1",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/pwa": "^3.3.2",
-    "@nuxtjs/stylelint-module": "^4.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/stylelint-module": "^4.0.0",
     "@nuxtjs/tailwindcss": "^3.3.1",
     "@xdn/cli": "^2.40.2",
     "@xdn/core": "^2.40.2",

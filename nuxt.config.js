@@ -98,7 +98,41 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    [
+      'nuxt-font-loader-strategy',
+      {
+        fonts: [
+          {
+            fileExtensions: ['woff2', 'woff'],
+            fontFamily: 'Ginto Normal Trial',
+            fontFaces: [
+              {
+                preload: true,
+                localSrc: ['Ginto Normal Trial'],
+                src: '@/assets/fonts/GintoNormalTrial-Regular',
+                fontWeight: 'normal',
+                fontStyle: 'normal'
+              }
+            ]
+          },
+          {
+            fileExtensions: ['woff2', 'woff'],
+            fontFamily: 'GT Walsheim',
+            fontFaces: [
+              {
+                preload: true,
+                localSrc: ['GT Walsheim'],
+                src: '@/assets/fonts/GTWalsheimMedium',
+                fontWeight: 500,
+                fontStyle: 'normal'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ],
   generate: {
     routes: dynamicMarkdownRoutes()
   },
