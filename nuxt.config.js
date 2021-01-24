@@ -8,7 +8,7 @@ const imgSrc = 'https://swach.io/img/logo.png';
 const twitterUsername = '@shipshapecode';
 
 export default {
-  target: 'static',
+  target: 'server',
   /*
    ** Headers of the page
    */
