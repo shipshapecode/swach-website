@@ -154,6 +154,24 @@ export default {
         loader: 'frontmatter-markdown-loader',
         include: resolve(__dirname, 'content')
       });
+    },
+
+    babel: {
+      presets({ envName }) {
+        const envTargets = {
+          client: { browsers: 'last 2 versions, not dead, not IE 11' },
+          server: { node: 'current' }
+        };
+        return [
+          [
+            '@nuxt/babel-preset-app',
+            {
+              corejs: { version: 3 },
+              targets: envTargets[envName]
+            }
+          ]
+        ];
+      }
     }
   },
   // TODO: enable this again, when we can figure out how to whitelist
