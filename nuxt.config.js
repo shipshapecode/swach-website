@@ -1,11 +1,16 @@
 import { basename, resolve } from 'path';
 import glob from 'glob';
+import walkSync from 'walk-sync';
 
 const markdownPaths = ['docs'];
 const description = 'A robust color management tool for the modern age.';
 const title = 'Swach';
 const imgSrc = 'https://swach.io/img/logo.png';
 const twitterUsername = '@shipshapecode';
+
+const docRoutes = walkSync('content/docs').map((file) =>
+  file.replace(/\.md$/, '')
+);
 
 export default {
   target: 'server',
@@ -93,8 +98,8 @@ export default {
       }
     ],
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
-    '@xdn/nuxt/module'
+    '@xdn/nuxt/module',
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Nuxt.js modules
@@ -180,7 +185,16 @@ export default {
   },
   sitemap: {
     hostname: 'https://swach.io',
-    trailingSlash: true
+    path: '/sitemap.xml',
+    cacheTime: 1000 * 60 * 15,
+    trailingSlash: true,
+    routes: [].concat(docRoutes),
+    filter({ routes }) {
+      return routes.map((route) => {
+        route.url = `${route.url}/`;
+        return route;
+      });
+    }
   },
   workbox: {
     cachingExtensions: '@/plugins/workbox-range-request.js'
