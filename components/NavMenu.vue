@@ -11,9 +11,9 @@
         to="/"
         class="font-gt-walsheim inline-flex items-center text-gray-800 text-2xl"
       >
-        <inline-svg
+        <img
           class="inline h-10 mr-4 w-10"
-          src="/svgs/swach-dock-icon.svg"
+          :src="require('~/assets/svgs/swach-dock-icon.svg?inline')"
         />
         Swach
       </nuxt-link>
@@ -24,7 +24,10 @@
           class="flex items-center px-3 py-2 text-gray-600 hover:text-gray-800 text-xl"
           @click="toggleNavMenu(true)"
         >
-          <inline-svg class="hamburger-menu" src="/svgs/menu.svg" />
+          <img
+            class="hamburger-menu"
+            :src="require('~/assets/svgs/menu.svg?inline')"
+          />
         </button>
       </div>
 
@@ -36,7 +39,10 @@
               class="cursor-pointer"
               @click="toggleNavMenu(false)"
             >
-              <inline-svg class="h-10 m-2 p-2 w-10" src="/svgs/close.svg" />
+              <img
+                class="h-10 m-2 p-2 w-10"
+                :src="require('~/assets/svgs/close.svg?inline')"
+              />
             </button>
           </div>
 

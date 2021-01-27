@@ -3,9 +3,9 @@
     <div
       class="bg-lightest-blue flex flex-wrap justify-center px-8 py-16 w-full"
     >
-      <inline-svg
+      <img
         class="top-bg absolute hidden z-0 lg:block"
-        src="/svgs/swach-dock-icon.svg"
+        :src="require('~/assets/svgs/swach-dock-icon.svg?inline')"
       />
 
       <div class="max-w-6xl w-full z-10">
@@ -57,9 +57,9 @@
           </div>
 
           <div class="w-full lg:w-1/2">
-            <inline-svg
+            <img
               class="inline-block ml-4 h-16 w-16"
-              src="/svgs/color-picker-icon.svg"
+              :src="require('~/assets/svgs/color-picker-icon.svg?inline')"
             />
 
             <h2 class="p-4 text-3xl md:text-5xl">Color Picker</h2>
@@ -85,9 +85,9 @@
           class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row"
         >
           <div class="w-full lg:w-1/2">
-            <inline-svg
+            <img
               class="inline-block ml-4 h-16 w-16"
-              src="/svgs/palettes-icon.svg"
+              :src="require('~/assets/svgs/palettes-icon.svg?inline')"
             />
 
             <h2 class="p-4 text-3xl md:text-5xl">Palettes</h2>
@@ -144,9 +144,9 @@
           </div>
 
           <div class="w-full lg:w-1/2 z-10">
-            <inline-svg
+            <img
               class="inline-block ml-4 h-16 w-16"
-              src="/svgs/color-harmonies-icon.svg"
+              :src="require('~/assets/svgs/color-harmonies-icon.svg?inline')"
             />
 
             <h2 class="p-4 text-3xl md:text-5xl">Color Harmonies</h2>
@@ -177,9 +177,9 @@
           class="flex flex-col flex-wrap items-center mb-4 mt-4 w-full lg:flex-row z-10"
         >
           <div class="w-full lg:w-1/2 z-10">
-            <inline-svg
+            <img
               class="inline-block ml-4 h-16 w-16"
-              src="/svgs/contrast-checker-icon.svg"
+              :src="require('~/assets/svgs/contrast-checker-icon.svg?inline')"
             />
 
             <h2 class="p-4 text-3xl md:text-5xl">Contrast Checker</h2>

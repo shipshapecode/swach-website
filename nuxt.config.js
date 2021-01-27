@@ -77,8 +77,7 @@ export default {
   plugins: [
     { src: '@/plugins/aos.js', mode: 'client' },
     '~plugins/filters.js',
-    '~/plugins/jsonld',
-    { src: '~/plugins/vue-inline-svg' }
+    '~/plugins/jsonld'
   ],
   /*
    ** Nuxt.js dev-modules
