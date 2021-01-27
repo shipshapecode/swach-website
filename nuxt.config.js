@@ -106,41 +106,39 @@ export default {
    */
   modules: [
     [
-      [
-        'nuxt-font-loader-strategy',
-        {
-          fonts: [
-            {
-              fileExtensions: ['woff2'],
-              fontFamily: 'Ginto Normal Trial',
-              fontFaces: [
-                {
-                  preload: true,
-                  localSrc: ['Ginto Normal Trial'],
-                  src: '@/assets/fonts/GintoNormalTrial-Regular',
-                  fontWeight: 'normal',
-                  fontStyle: 'normal'
-                }
-              ]
-            },
-            {
-              fileExtensions: ['woff2'],
-              fontFamily: 'GT Walsheim',
-              fontFaces: [
-                {
-                  preload: true,
-                  localSrc: ['GT Walsheim'],
-                  src: '@/assets/fonts/GTWalsheimMedium',
-                  fontWeight: 500,
-                  fontStyle: 'normal'
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      'nuxt-lazy-load'
-    ]
+      'nuxt-font-loader-strategy',
+      {
+        fonts: [
+          {
+            fileExtensions: ['woff2'],
+            fontFamily: 'Ginto Normal Trial',
+            fontFaces: [
+              {
+                preload: true,
+                localSrc: ['Ginto Normal Trial'],
+                src: '@/assets/fonts/GintoNormalTrial-Regular',
+                fontWeight: 'normal',
+                fontStyle: 'normal'
+              }
+            ]
+          },
+          {
+            fileExtensions: ['woff2'],
+            fontFamily: 'GT Walsheim',
+            fontFaces: [
+              {
+                preload: true,
+                localSrc: ['GT Walsheim'],
+                src: '@/assets/fonts/GTWalsheimMedium',
+                fontWeight: 500,
+                fontStyle: 'normal'
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    'nuxt-lazy-load'
   ],
   generate: {
     routes: dynamicMarkdownRoutes()
