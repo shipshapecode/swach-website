@@ -54,6 +54,8 @@
 </template>
 
 <script>
+import { generateMeta } from '~/utils/meta';
+
 export default {
   data() {
     return {
@@ -61,6 +63,13 @@ export default {
       name: null,
       swachLink: null
     };
+  },
+  head() {
+    const title = 'Palette';
+    const description =
+      'View this shared palette online and import it into Swach.';
+    const url = 'https://swach.io/palette/';
+    return generateMeta(title, description, url);
   },
   watchQuery: ['colors', 'name'],
   mounted() {
