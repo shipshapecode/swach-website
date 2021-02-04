@@ -97,8 +97,7 @@ export default {
       }
     ],
     '@nuxtjs/pwa',
-    '@xdn/nuxt/module',
-    '@nuxtjs/sitemap'
+    '@xdn/nuxt/module'
   ],
   /*
    ** Nuxt.js modules
@@ -137,7 +136,8 @@ export default {
         ]
       }
     ],
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    '@nuxtjs/sitemap'
   ],
   generate: {
     routes: dynamicMarkdownRoutes()
