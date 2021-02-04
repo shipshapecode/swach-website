@@ -55,17 +55,24 @@
 
 <script>
 export default {
-  asyncData({ query }) {
-    let { data } = query;
-    data = JSON.parse(decodeURIComponent(data));
-    const colors = data.colors ?? [];
-    const name = data.name ?? 'Palette';
+  data() {
     return {
-      colors,
-      name,
-      swachLink: `swach://?data=${encodeURIComponent(JSON.stringify(data))}`
+      colors: null,
+      name: null,
+      swachLink: null
     };
   },
-  watchQuery: ['colors', 'name']
+  watchQuery: ['colors', 'name'],
+  mounted() {
+    let { data } = this.$route.query;
+    if (data) {
+      data = JSON.parse(decodeURIComponent(data));
+      this.colors = data.colors ?? [];
+      this.name = data.name ?? 'Palette';
+      this.swachLink = `swach://?data=${encodeURIComponent(
+        JSON.stringify(data)
+      )}`;
+    }
+  }
 };
 </script>
