@@ -1,21 +1,51 @@
 <template>
   <div class="flex flex-wrap justify-center w-full">
-    <div class="flex flex-wrap justify-center px-8 py-16 w-full">
+    <div class="flex flex-wrap justify-center mt-10 pb-20 pt-10 px-8 w-full">
       <div class="max-w-6xl w-full z-10">
-        <div class="flex justify-between mb-4 w-full">
+        <div class="flex items-center justify-between mb-4 w-full">
           <h1 class="text-4xl">
             {{ name | titleize }}
           </h1>
 
-          <a :href="swachLink" class="bg-gray-500 h-4 w-4"></a>
+          <a
+            :href="swachLink"
+            class="bg-gray-200 h-12 p-4 rounded-full w-12"
+            title="Export to Swach"
+          >
+            <img
+              class="h-full w-full"
+              :src="require('~/assets/svgs/share.svg?inline')"
+            />
+          </a>
         </div>
 
-        <div class="flex h-48 overflow-hidden rounded-lg w-full">
+        <div class="flex h-24 overflow-hidden rounded-2xl w-full lg:h-72">
           <div
             v-for="(color, index) in colors"
             :key="`color-${index}`"
-            :style="{ backgroundColor: color }"
+            :style="{ backgroundColor: color.hex }"
             class="flex-1"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="border-t border-gray-200 divide-y divide-gray-200 flex flex-wrap justify-center w-full"
+    >
+      <div
+        v-for="(color, index) in colors"
+        :key="`color-${index}`"
+        class="flex justify-center px-8 w-full"
+      >
+        <div class="max-w-6xl pb-20 pt-10 w-full z-10">
+          <h3 class="mb-4 text-lg">
+            <span class="inline-block mr-4">{{ color.name }}</span>
+            <span class="text-gray-500 uppercase">{{ color.hex }}</span>
+          </h3>
+          <div
+            :style="{ backgroundColor: color.hex }"
+            class="h-12 rounded-xl w-full lg:h-24 lg:rounded-2xl"
           ></div>
         </div>
       </div>
@@ -26,15 +56,14 @@
 <script>
 export default {
   asyncData({ query }) {
-    let { colors, name } = query;
-    colors = colors ? decodeURIComponent(colors).split(',') : [];
-    name = name ?? 'Palette';
+    let { data } = query;
+    data = JSON.parse(decodeURIComponent(data));
+    const colors = data.colors ?? [];
+    const name = data.name ?? 'Palette';
     return {
       colors,
       name,
-      swachLink: `swach://?name=${name}&colors=${encodeURIComponent(
-        colors.join(',')
-      )}`
+      swachLink: `swach://?data=${encodeURIComponent(JSON.stringify(data))}`
     };
   },
   watchQuery: ['colors', 'name']
