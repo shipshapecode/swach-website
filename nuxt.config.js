@@ -13,7 +13,6 @@ const docRoutes = walkSync('content/docs').map((file) =>
 );
 
 export default {
-  target: 'server',
   /*
    ** Headers of the page
    */
