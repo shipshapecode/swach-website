@@ -11,4 +11,12 @@ module.exports = new Router()
   // .match('/sitemap.xml', ({ serveStatic }) => {
   //   serveStatic('dist/sitemap.xml');
   // })
-  .use(nuxtRoutes);
+  .use(nuxtRoutes)
+  .prerender([
+    // HTML pages
+    { path: '/' },
+    { path: '/about/' },
+    { path: '/download/' },
+    { path: '/download/linux/' },
+    { path: '/releases/' }
+  ]);
