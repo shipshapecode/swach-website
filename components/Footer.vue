@@ -37,7 +37,7 @@
             class="font-bold font-gt-walsheim inline-flex items-center text-white text-2xl"
           >
             <img
-              class="inline h-10 mr-4 w-10"
+              class="inline h-auto mr-4 w-10"
               :src="require('~/assets/svgs/swach-logo-line.svg?inline')"
             />
             Swach
