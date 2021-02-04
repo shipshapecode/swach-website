@@ -6,5 +6,8 @@
 module.exports = {
   backends: {},
   connector: '@xdn/nuxt',
-  includeNodeModules: true
+  includeNodeModules: true,
+  includeFiles: {
+    'content/**/*': true
+  }
 };
