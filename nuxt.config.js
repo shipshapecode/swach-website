@@ -97,7 +97,7 @@ export default {
       }
     ],
     '@nuxtjs/pwa',
-    '@xdn/nuxt/module'
+    // '@xdn/nuxt/module'
   ],
   /*
    ** Nuxt.js modules
