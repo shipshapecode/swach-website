@@ -1872,10 +1872,10 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@xdn/cli@^2.42.1":
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/@xdn/cli/-/cli-2.42.1.tgz#67bfa0171c607f32bd37475fe06fd17c32474dbd"
-  integrity sha512-gn6q/tDLkw8UBbcexyQH1Q5ZABsP9kKMjVWyKxFI5kfdMRhi3JZCCqbvo0eUBy3ktIGdLqT90VUcq4LAItntfQ==
+"@xdn/cli@2.40.2":
+  version "2.40.2"
+  resolved "https://registry.yarnpkg.com/@xdn/cli/-/cli-2.40.2.tgz#fe18426f91b4683340957492297d73ed0d3fe218"
+  integrity sha512-O72YokkFqr3SK4PLzAx3R7EwnwMe8975BeJp4Ydguxtf1C51MZXTzJg6MbNfkyOrXjg/wXn1Anu9ssh5tz9pkw==
   dependencies:
     axios "^0.21.1"
     chalk "^2.4.2"
@@ -1905,10 +1905,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@xdn/core@^2.42.1":
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/@xdn/core/-/core-2.42.1.tgz#39ada2021d28fa2627fb62150ee7bbb76b27a47b"
-  integrity sha512-lqJrfmRGCTZIX6zp9coUYMbqi1HRWJInm/5Mh4BMDD6iHyy94CeHj6wfeXIYn14YOaf+LUdBbj38Wppsa1o2+g==
+"@xdn/core@2.40.2":
+  version "2.40.2"
+  resolved "https://registry.yarnpkg.com/@xdn/core/-/core-2.40.2.tgz#ffb20d374b1a8dc07653ca315176a6add3e1fe8c"
+  integrity sha512-KS9ObQv3CA1KedU5aZIGKEsYH8zHAnX79jGSo3aB0lHnOJw1f9n85++kknY9YzZDCONrmF0QMUduILpTWNnByQ==
   dependencies:
     ajv "^6.12.3"
     babel-loader "^8.1.0"
@@ -1938,19 +1938,19 @@
     webpack-bundle-analyzer "^3.9.0"
     webpack-dev-middleware "^4.0.0"
 
-"@xdn/devtools@^2.42.1":
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/@xdn/devtools/-/devtools-2.42.1.tgz#62cc1253ae3d0ab2feb0ee1ca2567d6e34f8fac7"
-  integrity sha512-Jpv90rAxyx8oKDe7O58Kmenn8Q4/LDThY0U6LFwXIj4VPLjFLG6uXuad2dtIhb+KgLYtrV/bMxbG4MIfXdZHPw==
+"@xdn/devtools@2.40.2":
+  version "2.40.2"
+  resolved "https://registry.yarnpkg.com/@xdn/devtools/-/devtools-2.40.2.tgz#f0c19cac1887e3189f9588da831265271c218f4f"
+  integrity sha512-+7N/QO3pimw2fbrPASjHNxunAn9W3/1DqAP9wzdQ4CNf5eAjFhFAnm5ABzsvxX/iURPxgb978d1VwDl8se9hBA==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@xdn/nuxt@^2.42.1":
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/@xdn/nuxt/-/nuxt-2.42.1.tgz#c6b238238d7acd2b124390fe8ddd6f09d30893e1"
-  integrity sha512-3GxohzXVkSthQTGs156M8zU5ZnMLUbPGshixt/JO4MZ7yABqv1D6ZgNKJUP6M5Xi8ydaSOhfOBxSZmgY9MGgbA==
+"@xdn/nuxt@2.40.2":
+  version "2.40.2"
+  resolved "https://registry.yarnpkg.com/@xdn/nuxt/-/nuxt-2.40.2.tgz#b6f2c7bd123ba2742c867d7cdb37965e28e003da"
+  integrity sha512-gf6SGUpNAwfoPreKWKwmsGw//zTNnfdBtbRTgNZVuOs46vUakM65xMFL7KHE+G40nGlu7mk908dCNzLxoqVbLw==
   dependencies:
     "@types/cross-spawn" "^6.0.2"
     chalk "^3.0.0"
@@ -1962,10 +1962,10 @@
     terminal-link "^2.1.1"
     workbox-webpack-plugin "^5.1.2"
 
-"@xdn/prefetch@^2.42.1":
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/@xdn/prefetch/-/prefetch-2.42.1.tgz#f6e800d4bef312844057a823545db3b2d124f9a8"
-  integrity sha512-eF1CqwVitN9OTxh/FPvyhe0m8+G8N/Cu8TWTnI6VkWJZn2Pmnm+dK5CE6x8eG34b5iJ/OwaANwItnBDCUVAgFQ==
+"@xdn/prefetch@2.40.2":
+  version "2.40.2"
+  resolved "https://registry.yarnpkg.com/@xdn/prefetch/-/prefetch-2.40.2.tgz#afceffa9c276512ceb1c90d98ce8b7b90f9ee8fb"
+  integrity sha512-R1AacUQpEz58KggmstBkvIPoTl8055tVWpu/2jDfVSx8u0R4ZGLVU5HDbfhejRWBX1L6T8xH53Ju7V0nSQWutQ==
   dependencies:
     "@types/cheerio" "^0.22.18"
     cheerio "^1.0.0-rc.3"
@@ -1977,10 +1977,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@xdn/vue@^2.42.1":
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/@xdn/vue/-/vue-2.42.1.tgz#41244673e3fecb65874d9fccedd436756183233f"
-  integrity sha512-eofELysfPRw1Adb/eNpVv7Ty9bntre8SAyfEtVx/pg6gBdYbgNhTns4yqeXI7LBT33w0p7JC4p1kP1shXKlSQw==
+"@xdn/vue@2.40.2":
+  version "2.40.2"
+  resolved "https://registry.yarnpkg.com/@xdn/vue/-/vue-2.40.2.tgz#0cfb76495f36d53fa685292d0187a54e58dac352"
+  integrity sha512-yaiGAMEMpyhlgLmLTPaVZJKYSOdkmUWe8PwQfZ0o08U72nX56js3TVAdo0T9WBRE9dMG16qoAsNndSFFkX9QHw==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
