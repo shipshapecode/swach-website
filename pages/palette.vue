@@ -2,10 +2,12 @@
   <div class="flex flex-wrap justify-center w-full">
     <div class="flex flex-wrap justify-center px-8 py-16 w-full">
       <div class="max-w-6xl w-full z-10">
-        <div class="mb-4 w-full">
+        <div class="flex justify-between mb-4 w-full">
           <h1 class="text-4xl">
             {{ name | titleize }}
           </h1>
+
+          <a :href="swachLink" class="bg-gray-500 h-4 w-4"></a>
         </div>
 
         <div class="flex h-48 overflow-hidden rounded-lg w-full">
@@ -24,10 +26,15 @@
 <script>
 export default {
   asyncData({ query }) {
-    const { colors, name } = query;
+    let { colors, name } = query;
+    colors = colors ? decodeURIComponent(colors).split(',') : [];
+    name = name ?? 'Palette';
     return {
-      colors: colors ? decodeURIComponent(colors).split(',') : [],
-      name: name ?? 'Palette'
+      colors,
+      name,
+      swachLink: `swach://?name=${name}&colors=${encodeURIComponent(
+        colors.join(',')
+      )}`
     };
   },
   watchQuery: ['colors', 'name']
