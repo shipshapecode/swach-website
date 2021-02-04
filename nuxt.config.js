@@ -136,7 +136,7 @@ export default {
         ]
       }
     ],
-    'nuxt-lazy-load',
+    // 'nuxt-lazy-load',
     '@nuxtjs/sitemap'
   ],
   generate: {
