@@ -6,7 +6,6 @@ const { nuxtRoutes } = require('@xdn/nuxt');
 
 module.exports = new Router()
   .prerender([
-    // HTML pages
     { path: '/' },
     { path: '/about/' },
     { path: '/docs/' },
