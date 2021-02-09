@@ -44,7 +44,7 @@
           </nuxt-link>
 
           <p class="text-color2 text-sm">
-            Copyright © 2020
+            Copyright © 2021
             <a class="underline hover:text-white" href="https://shipshape.io">
               Ship Shape Consulting LLC.
             </a>
