@@ -1,4 +1,88 @@
-## Swach 0.5.0 (2021-01-15)
+## Swach 0.7.1
+
+##### February 09, 2021
+
+* Build errors required a new release, no new changes on this version.
+
+---
+
+## Swach 0.7.0
+
+##### February 09, 2021
+
+#### 🚀 Enhancement
+* Add share palette functionality 
+* Update color row menu
+* Add color format setting
+* Replace EmberPopover with Tailwind dropdown
+
+---
+
+## Swach 0.6.2 to 0.6.7
+
+##### January 26, 2021
+
+* Build errors required a new release, no new changes on these versions.
+
+---
+
+## Swach 0.6.1
+
+##### January 26, 2021
+
+#### 🐛 Bug Fix
+* Fix undefined color copy
+
+---
+
+## Swach 0.6.0
+
+##### January 26, 2021
+
+#### 🚀 Enhancement
+* Fix placement for Windows taskbar
+
+---
+
+## Swach 0.5.6 to 0.5.14
+
+##### January 25, 2021
+
+* Build errors required a new release, no new changes on these versions.
+
+---
+
+## Swach 0.5.5
+
+##### January 25, 2021
+
+#### 🚀 Enhancement
+* Update styles, add ability to clear color history
+* Allow select all in inputs
+
+#### 🏠 Internal
+* Add back CSP
+* Add volta
+
+---
+
+## Swach 0.5.4
+
+##### January 18, 2021
+
+#### 🐛 Bug Fix
+* Check if palette is disconnected
+
+---
+
+## Swach 0.5.1 to 0.5.3
+
+##### January 15, 2021
+
+* Build errors required a new release, no new changes on these versions.
+
+---
+## Swach 0.5.0
 
 ##### January 15, 2021
 
@@ -28,7 +112,7 @@
 
 ---
 
-## Swach 0.4.17 (2020-12-14)
+## Swach 0.4.17
 
 ##### December 12, 2020
 
