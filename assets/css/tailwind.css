@@ -4,3 +4,5 @@
 @import './tailwind/components/nav-menu.css';
 @import './tailwind/components/shapes.css';
 @import 'tailwindcss/utilities';
+
+@import './transitions.css';

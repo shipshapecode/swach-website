@@ -135,6 +135,6 @@ export default {
 
 .download,
 .top-nav {
-  transition: all 0.25s linear;
+  @apply duration-150 transition;
 }
 </style>

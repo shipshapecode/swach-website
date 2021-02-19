@@ -62,9 +62,7 @@ body {
 
 a,
 button {
-  text-decoration: none;
-  transition-duration: 0.25s;
-  transition-property: all;
+  @apply duration-150 no-underline transition;
 }
 
 h1,
