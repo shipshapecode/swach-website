@@ -8,8 +8,8 @@ const title = 'Swach';
 const imgSrc = 'https://swach.io/img/logo.png';
 const twitterUsername = '@shipshapecode';
 
-const docRoutes = walkSync('content/docs').map((file) =>
-  file.replace(/\.md$/, '')
+const docRoutes = walkSync('content/docs').map(
+  (file) => `docs/${file.replace(/\.md$/, '')}`
 );
 
 export default {
@@ -96,7 +96,7 @@ export default {
         id: 'UA-84561982-2'
       }
     ],
-    '@nuxtjs/pwa',
+    '@nuxtjs/pwa'
     // '@xdn/nuxt/module'
   ],
   /*
