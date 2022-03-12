@@ -1,3 +1,43 @@
+## Swach 1.0.2
+
+##### March 11, 2022
+
+#### 🐛 Bug Fix
+* Fix issue with hex on existing colors
+
+---
+
+##  Swach 1.0.1
+
+* Build errors required a new release, no new changes on this version.
+
+---
+
+##  Swach 1.0.0
+
+##### March 11, 2022
+
+#### 💥 Breaking Change
+* Require users to authenticate, after authenticating once before
+* Electron and node 16
+* Swach v1: Add user accounts and API integration
+
+#### 🚀 Enhancement
+* Update deps, fix styles, tweak things for 1.0
+* Hide menu and eyedropper when color picker is active
+
+#### 🏠 Internal
+* Testing refactor 
+* Remove ember-box, update to ember 4
+* Use explicit injections, update ember-orbit
+* ember-cli 4.1.0
+* Switch to native EyeDropper
+* Tailwind v3
+* V1 tweaks
+* Bump deps, fix lint
+
+---
+
 ## Swach 0.7.1
 
 ##### February 09, 2021
