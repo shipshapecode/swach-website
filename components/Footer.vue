@@ -28,6 +28,13 @@
             >
               Download
             </nuxt-link>
+
+            <a
+              href="https://github.com/shipshapecode/swach/"
+              class="inline-block mb-6 mr-12 hover:text-alt"
+            >
+              GitHub
+            </a>
           </div>
         </div>
 
@@ -44,7 +51,7 @@
           </nuxt-link>
 
           <p class="text-color2 text-sm">
-            Copyright © 2021
+            Copyright © 2022
             <a class="underline hover:text-white" href="https://shipshape.io">
               Ship Shape Consulting LLC.
             </a>
